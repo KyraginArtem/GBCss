@@ -4,21 +4,131 @@
     box-sizing: border-box;
 }
 
+
+
+/* Хедер */
+
 .container {
     margin: 0 auto;
     width: 1600px;
 }
 
-header {
+.header-menu .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.leftSection a:first-child {
+    margin-left: 231px;
+    margin-right: 41px;
+}
+
+.rightSection a {
+    margin-right: 33px;
+}
+
+.rightSection a:last-child {
+    margin-right: 240px;
+}
+
+.header-menu {
     background-color: #222222;
     height: 75px;
     margin: auto;
+    display: flex;
 }
 
-header .container {
-    display: flex;
-    justify-content: space-between;
+.header-banner {
+    background-color: #F1E4E6;
 }
+
+.header-banner .container {
+    display: flex;
+}
+
+
+.header-banner .container h1 {
+    position: absolute;
+    margin-top: 290px;
+    margin-left: 864px;
+    border-left: 12px solid #F16D7F;
+    padding-left: 16px;
+    font-family: "Lato", sans-serif;
+    color: #222222;
+    
+}
+
+.header-banner .container h1 span {
+    color : #F16D7F;
+    font-family: "Lato", sans-serif;
+}
+
+.header-banner .container h1 b {
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 57.6px;
+}
+
+/* Блок Навигации в секции контента */
+
+.content-section {
+    background-color: #ffffff;
+    margin: 0 auto;
+    width: 1600px;
+}
+
+.content-menu-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.content-menu a {
+    width: 360px;
+    height: 260px;
+    
+    
+}
+
+.forWomen {
+    
+    
+    background-image: url("../img/bg-content-menu/bgForWomen.png") ;
+    background-color: #22222259;
+    -webkit-background-size: cover;
+  -moz-background-size:  cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.shadowBox{
+    display: contents;
+    background-color: rgb(33, 22, 22);
+    width: 360px;
+    height: 260px;
+}
+
+.forMen {
+    
+    background-image: url("../img/bg-content-menu/bgForMen.png") ;
+}
+
+.forKids {
+    
+    background-image: url("../img/bg-content-menu/bgForKids.png") ;
+}
+
+.Accesories {
+    
+    background-image: url("../img/bg-content-menu/bgAccesories.png") ;
+}
+
+
+
+
+
+
 
 
 
