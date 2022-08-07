@@ -8,8 +8,8 @@
             "type": "pwa-chrome",
             "request": "launch",
             "name": "Launch Chrome against localhost",
-            //file:///C:/Users/1/Desktop/GBCss/SimpleHWLayout/index.html
-            "url": "file:///C:/Users/Worker/Documents/GitHub/GBCss/SimpleHWLayout/index.html",
+            //"url": "file:///C:/Users/Worker/Documents/GitHub/GBCss/SimpleHWLayout/index.html",
+            "url": "file:///C:/Users/1/Desktop/GBCss/SimpleHWLayout/index.html",
             "webRoot": "${workspaceFolder}"
         }
     ]
