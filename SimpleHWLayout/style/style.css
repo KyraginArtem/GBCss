@@ -391,7 +391,6 @@
     display: block;
     border: 1px solid #FF6A6A;
     font-family: 'Lato';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
@@ -428,10 +427,57 @@
     text-align: center;
 }
 
-.ourAdvantages .container article img:nth-child(0n) {
+.ourAdvantages .container article:nth-child(1) img {
     margin-bottom: 28px;
 }
 
-.ourAdvantages .container article img:nth-child(1n) {
+.ourAdvantages .container article:nth-child(2) img {
     margin-bottom: 19px;
+}
+
+.ourAdvantages .container article:nth-child(3) img {
+    margin-bottom: 25px;
+}
+
+.ourAdvantages .container article h2 {
+    margin-bottom: 16px;
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 19.96px;
+    line-height: 24px;
+    color: #FBFBFB;
+}
+
+.ourAdvantages .container article p {
+    font-family: 'Lato';
+    font-weight: 300;
+    font-size: 13.972px;
+    line-height: 17px;
+    text-align: center;
+    color: #FBFBFB;
+}
+
+.contactUs {
+    position: relative;
+    margin: auto;
+    width: 1598px;
+    height: 448px;
+    background-image: url(../img/bg-footer/bg-footer.png);
+}
+
+.contactUs::before {
+    content: '';
+    /* width: 1598px;
+    height: 448px; */
+    position: absolute;
+    left: 0.12%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: rgba(244, 244, 244, 0.7);
+    /* z-index: 1; */
+}
+
+.contactUs figure {
+    z-index: 1;
 }
