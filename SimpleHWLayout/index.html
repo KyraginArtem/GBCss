@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2d8f5a22d0.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -90,14 +91,17 @@
         <h2>
             Fetured Items
         </h2>
-        <p>
+        <p class="productBoard-text">
             Shop for items based on what we featured in this week
         </p>
         <div class="productBoard-container">
             <figure>
                 <a href="#">
                     <div class="container-product">
-                        <img src="img/bg-productBoard/Rectangle 15 copy.png" alt="">
+                        <div class="picther-box">
+                            <img class="pic" src="img/bg-productBoard/Rectangle 15 copy.png" alt="">
+                        </div>
+                        
                         <h2>ELLERY X M'O CAPSULE</h2>
                         <p>
                             Known for her sculptural takes on traditional tailoring,
@@ -107,13 +111,22 @@
                         <span>$52.00</span>
                     </div>
                 </a>
+                <!-- кнопка добавить в карзину -->
+                <div class="add-box">
+                    <a class="add" href="#">
+                        <img class="add-pic" src="img/icon/card.png" alt="card">
+                        <p class="add-desc">Add to Card</p>
+                    </a>
+                </div>
+                
             </figure>
-
             <figure>
                 <a href="#">
                     <div class="container-product">
-                        <div class="box">
-                            <img src="img/bg-productBoard/Layer 512.png" alt="">
+                        <div class="picther-box">
+                            <div class="box pic">
+                                <img src="img/bg-productBoard/Layer 512.png" alt="">
+                            </div>
                         </div>
                         <h2>ELLERY X M'O CAPSULE</h2>
                         <p>
@@ -124,11 +137,19 @@
                         <span>$52.00</span>
                     </div>
                 </a>
+                <div class="add-box">
+                    <a class="add" href="#">
+                        <img class="add-pic" src="img/icon/card.png" alt="card">
+                        <p class="add-desc">Add to Card</p>
+                    </a>
+                </div>
             </figure>
             <figure>
                 <a href="#">
                     <div class="container-product">
-                        <img src="img/bg-productBoard/Rectangle 15 copy3.png" alt="">
+                        <div class="picther-box">
+                            <img class="pic" src="img/bg-productBoard/Rectangle 15 copy3.png" alt="">
+                        </div>
                         <h2>ELLERY X M'O CAPSULE</h2>
                         <p>
                             Known for her sculptural takes on traditional tailoring,
@@ -138,11 +159,19 @@
                         <span>$52.00</span>
                     </div>
                 </a>
+                <div class="add-box">
+                    <a class="add" href="#">
+                        <img class="add-pic" src="img/icon/card.png" alt="card">
+                        <p class="add-desc">Add to Card</p>
+                    </a>
+                </div>
             </figure>
             <figure>
                 <a href="#">
                     <div class="container-product">
-                        <img src="img/bg-productBoard/Rectangle 15 copy4.png" alt="">
+                        <div class="picther-box">
+                            <img class="pic" src="img/bg-productBoard/Rectangle 15 copy4.png" alt="">
+                        </div>
                         <h2>ELLERY X M'O CAPSULE</h2>
                         <p>
                             Known for her sculptural takes on traditional tailoring,
@@ -152,11 +181,19 @@
                         <span>$52.00</span>
                     </div>
                 </a>
+                <div class="add-box">
+                    <a class="add" href="#">
+                        <img class="add-pic" src="img/icon/card.png" alt="card">
+                        <p class="add-desc">Add to Card</p>
+                    </a>
+                </div>
             </figure>
             <figure>
                 <a href="#">
                     <div class="container-product">
-                        <img src="img/bg-productBoard/Rectangle 15 copy5.png" alt="">
+                        <div class="picther-box">
+                            <img class="pic" src="img/bg-productBoard/Rectangle 15 copy5.png" alt="">
+                        </div>
                         <h2>ELLERY X M'O CAPSULE</h2>
                         <p>
                             Known for her sculptural takes on traditional tailoring,
@@ -166,11 +203,19 @@
                         <span>$52.00</span>
                     </div>
                 </a>
+                <div class="add-box">
+                    <a class="add" href="#">
+                        <img class="add-pic" src="img/icon/card.png" alt="card">
+                        <p class="add-desc">Add to Card</p>
+                    </a>
+                </div>
             </figure>
             <figure>
                 <a href="#">
                     <div class="container-product">
-                        <img src="img/bg-productBoard/Rectangle 15 copy6.png" alt="">
+                        <div class="picther-box">
+                            <img class="pic" src="img/bg-productBoard/Rectangle 15 copy6.png" alt="">
+                        </div>
                         <h2>ELLERY X M'O CAPSULE</h2>
                         <p>
                             Known for her sculptural takes on traditional tailoring,
@@ -180,6 +225,12 @@
                         <span>$52.00</span>
                     </div>
                 </a>
+                <div class="add-box">
+                    <a class="add" href="#">
+                        <img class="add-pic" src="img/icon/card.png" alt="card">
+                        <p class="add-desc">Add to Card</p>
+                    </a>
+                </div>
             </figure>
         </div>
         <form action="#">
@@ -220,7 +271,23 @@
                 </article>
             </div>
         </section>
-        
+        <section class="contactUs">
+            <div class="filtr"></div>
+            <figure>
+                <img src="img/bg-footer/Intersect.png" alt="human">
+                <p>
+                    “Vestibulum quis porttitor dui! Quisque viverra nunc mi,
+                    <i>a pulvinar purus condimentum</i>“
+                </p>
+            </figure>
+
+            <form action="#">
+                <h2>SUBSCRIBE</h2>
+                <p>FOR OUR NEWLETTER AND PROMOTION</p>
+                <input type="email" placeholder="Enter Your Email">
+                <button>Subscribe</button>
+            </form>
+        </section>
 
     </footer>
 </body>
