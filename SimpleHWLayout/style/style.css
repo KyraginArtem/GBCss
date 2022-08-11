@@ -1,10 +1,8 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
-
-
 
 /* Хедер */
 /* ----- */
@@ -53,8 +51,6 @@
     font-family: "Lato", sans-serif;
     font-size: 19px;
     background-color: #F16D7F;
-
-
 }
 
 .rightSection a:last-child {
@@ -76,7 +72,6 @@
     display: flex;
 }
 
-
 .header-banner .container h1 {
     position: absolute;
     margin-top: 290px;
@@ -85,11 +80,10 @@
     padding-left: 16px;
     font-family: "Lato", sans-serif;
     color: #222222;
-    
 }
 
 .header-banner .container h1 span {
-    color : #F16D7F;
+    color: #F16D7F;
     font-family: "Lato", sans-serif;
 }
 
@@ -107,10 +101,10 @@
 .section-nav {
     background-color: #ffffff;
     margin: 0 auto;
-    width: 1600px;
+    width: 1140px;
 }
 
-.nav-menu-container{
+.nav-menu-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -125,17 +119,18 @@
     text-decoration: none;
 }
 
-.nav-menu-container .forWomen:after { 
+.nav-menu-container .forWomen:after {
     content: '';
     position: absolute;
-    top: 0; left: 0;
+    top: 0;
+    left: 0;
     right: 0;
     bottom: 0;
     background: rgba(33, 22, 22, 0.7);
-    opacity: 1; 
+    opacity: 1;
 }
 
-.nav-menu-container .forWomen:before { 
+.nav-menu-container .forWomen:before {
     content: '';
     position: absolute;
     top: 0;
@@ -143,84 +138,93 @@
     right: 0;
     bottom: 0;
     background: url(../img/bg-content-menu/bgForWomen.png);
-    opacity: 1; 
+    opacity: 1;
 }
 
 .nav-menu-container .forWomen:hover:before,
-.nav-menu-container .forWomen:hover:after { 
-    opacity: 0; 
+.nav-menu-container .forWomen:hover:after {
+    opacity: 0;
 }
 
-.forWomen {
-    margin-left: 230px;
-}
-
-
-.nav-menu-container .forMen:after { 
+.nav-menu-container .forMen:after {
     content: '';
     position: absolute;
-    top: 0; left: 0; right: 0; bottom: 0;
-    background: rgba(0,0,0,.5);
-    opacity: 1; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, .5);
+    opacity: 1;
 }
 
-.nav-menu-container .forMen:before { 
+.nav-menu-container .forMen:before {
     content: '';
     position: absolute;
-    top: 0; left: 0; right: 0; bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
     background: url(icon-path);
-    opacity: 1; 
+    opacity: 1;
 }
 
 .nav-menu-container .forMen:hover:before,
-.nav-menu-container .forMen:hover:after { 
-    opacity: 0; 
+.nav-menu-container .forMen:hover:after {
+    opacity: 0;
 }
 
-.nav-menu-container .forKids:after { 
+.nav-menu-container .forKids:after {
     content: '';
     position: absolute;
-    top: 0; left: 0; right: 0; bottom: 0;
-    background: rgba(0,0,0,.5);
-    opacity: 1; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, .5);
+    opacity: 1;
 }
 
-.nav-menu-container .forKids:before { 
+.nav-menu-container .forKids:before {
     content: '';
     position: absolute;
-    top: 0; left: 0; right: 0; bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
     background: url(icon-path);
-    opacity: 1; 
+    opacity: 1;
 }
 
 .nav-menu-container .forKids:hover:before,
-.nav-menu-container .forKids:hover:after { 
-    opacity: 0; 
+.nav-menu-container .forKids:hover:after {
+    opacity: 0;
 }
 
-.forKids {
-    margin-right: 230px ;
-}
-
-.nav-menu .accesories:after { 
+.nav-menu .accesories:after {
     content: '';
     position: absolute;
-    top: 0; left: 0; right: 0; bottom: 0;
-    background: rgba(0,0,0,.5);
-    opacity: 1; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, .5);
+    opacity: 1;
 }
 
-.nav-menu .accesories:before { 
+.nav-menu .accesories:before {
     content: '';
     position: absolute;
-    top: 0; left: 0; right: 0; bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
     background: url(icon-path);
-    opacity: 1; 
+    opacity: 1;
 }
 
 .nav-menu .accesories:hover:before,
-.nav-menu .accesories:hover:after { 
-    opacity: 0; 
+.nav-menu .accesories:hover:after {
+    opacity: 0;
 }
 
 .nav-menu .accesories {
@@ -229,7 +233,6 @@
     margin: 30px auto 96px auto;
 }
 
-
 /* Текст в блоках content-menu */
 
 .nav-menu .menu-container-text {
@@ -237,7 +240,7 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform:translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 .nav-menu .accesories-text-container {
@@ -245,10 +248,10 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform:translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
-.nav-menu .container-text-header  {
+.nav-menu .container-text-header {
     font-family: 'Lato';
     font-weight: 400;
     font-size: 16px;
@@ -257,7 +260,7 @@
 }
 
 
-.nav-menu .menu-container-text span  {
+.nav-menu .menu-container-text span {
     font-family: 'Lato';
     font-weight: 700;
     font-size: 24px;
@@ -265,7 +268,7 @@
     color: #F16D7F;
 }
 
-.nav-menu .accesories-text-container span  {
+.nav-menu .accesories-text-container span {
     font-family: 'Lato';
     font-weight: 700;
     font-size: 24px;
@@ -280,7 +283,7 @@
 .productBoard {
     background-color: #ffffff;
     margin: 0 auto;
-    width: 1600px;
+    width: 1140px;
 }
 
 .productBoard h2 {
@@ -294,7 +297,7 @@
     margin-bottom: 6px;
 }
 
-.productBoard p {
+.productBoard-text {
     font-family: 'Lato';
     font-style: normal;
     font-weight: 400;
@@ -308,23 +311,59 @@
 .productBoard-container {
     display: flex;
     flex-wrap: wrap;
-    width: 1170px;
+    justify-content: space-between;
     margin: auto;
 }
 
 .productBoard-container figure {
-    margin: 0 15px ;
+    position: relative;
 }
 
-.productBoard-container figure:nth-child(-n+3){
+/* уведичение картинки пр наведении */
+.container-product .pic {
+    transition: 0.5s;
+    display: block;
+}
+
+.container-product .picther-box {
+    display: inline-block;
+    overflow: hidden;
+}
+
+.productBoard-container figure:hover .pic {
+    transform: scale(1.1);
+}
+
+
+/* Затемнение картиники товара */
+.productBoard-container figure:hover .pic {
+    filter: brightness(30%);
+}
+
+.productBoard-container figure:hover .box {
+    filter: brightness(30%);
+}
+
+/* появление кнопки добавить в карзину */ 
+
+.productBoard-container figure .add:hover {
+    box-shadow: 0px 0px 10px 0px #fff;
+}
+
+.productBoard-container figure:hover .add-box{
+    display: flex;
+}
+
+
+.productBoard-container figure:nth-child(-n+3) {
     margin-bottom: 30px;
 }
 
 
 .productBoard-container .container-product {
     width: 360px;
-    height: 581px;
     background-color: #F8F8F8;
+    padding-bottom: 20px;
 }
 
 .box {
@@ -340,6 +379,7 @@
 
 .productBoard-container a {
     text-decoration: none;
+    display: block;
 }
 
 .container-product a {
@@ -383,8 +423,8 @@
 }
 
 .productBoard-container figure:hover {
-    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0);
-} 
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0);
+}
 
 .productBoard button {
     margin: 49px auto 96px auto;
@@ -402,8 +442,39 @@
 .productBoard button:hover {
     background-color: #F16D7F;
     color: #ffffff;
-    
+
 }
+
+/* кнопка добавить в карзину на картачке с товара */
+ .productBoard-container figure .add {
+    display: flex;
+    padding: 8px;
+    border: 1px solid #ffff;
+    align-items: center;
+    text-decoration: none;
+    pointer-events: all;
+ }
+
+ .add-box {
+    display: none;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    top: 188px;
+    pointer-events: none;
+    
+ }
+
+ figure .add .add-desc {
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    margin-left: 11px;
+    
+ }
+
 
 /* -------- */
 
@@ -465,19 +536,98 @@
     background-image: url(../img/bg-footer/bg-footer.png);
 }
 
-.contactUs::before {
+.contactUs .filtr {
     content: '';
     /* width: 1598px;
     height: 448px; */
     position: absolute;
-    left: 0.12%;
+    left: 0%;
     right: 0%;
     top: 0%;
     bottom: 0%;
     background: rgba(244, 244, 244, 0.7);
-    /* z-index: 1; */
 }
 
 .contactUs figure {
-    z-index: 1;
+    position: absolute;
+    width: 360px;
+    height: 225px;
+    left: 228px;
+    top: 97px;
+    text-align: center;
+}
+
+.contactUs figure img {
+    margin-bottom: 30px;
+}
+
+.contactUs figure p {
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #222224;
+}
+
+.contactUs form {
+    position: absolute;
+    width: 557px;
+    height: 142px;
+    left: 811px;
+    top: 150px;
+    text-align: center;
+}
+
+.contactUs form h2 {
+    font-family: 'Lato';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 40px;
+    color: #222224;
+}
+
+.contactUs form p {
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30.1px;
+    color: #222224;
+    margin-bottom: 32px;
+}
+
+.contactUs form input {
+    border: 1px solid transparent;
+    outline: none;
+    width: 256px;
+    height: 49px;
+    padding-left: 22px;
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 14px;
+    color: #222224;
+    border-radius: 25px 0 0 25px;
+    background-color: #E1E1E1;
+    left: 104px;
+    position: absolute;
+}
+
+.contactUs form button {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #222224;
+    background-color: transparent;
+    width: 100px;
+    height: 49px;
+    border: 1px solid #FF6A6A;
+    position: absolute;
+    left: 360px;
+    border-radius: 0 25px 25px 0;
+}
+
+.contactUs form button:hover {
+    color: #FFFFFF;
+    background-color: #F16D7F;
 }
