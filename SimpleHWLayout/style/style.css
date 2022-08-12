@@ -631,3 +631,30 @@
     color: #FFFFFF;
     background-color: #F16D7F;
 }
+
+.footer {
+    height: 79px;
+    background: #222224;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .container p {
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 70px;
+    color: #FBFBFB;
+    margin-left: 235px;
+}
+
+.soc {
+    background-color: #5D5D5D;
+    width: 147px;
+    height: 32px;
+    margin-right: 230px;
+    margin-top: 24px;
+}
