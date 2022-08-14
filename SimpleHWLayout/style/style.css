@@ -652,9 +652,26 @@
 }
 
 .soc {
-    background-color: #5D5D5D;
     width: 147px;
     height: 32px;
     margin-right: 230px;
     margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.soc-box {
+    width: 32px;
+    height: 32px;
+    background-color: #fff;
+    text-decoration: none;
+    display: flex;
+}
+
+.fa-brands {
+    font-size: 16px;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    margin: auto;
 }
