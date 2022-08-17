@@ -70,11 +70,20 @@
     box-shadow: 0px 1px 10px 0px;
     position: absolute;
     z-index: 1;
+    
     display: none;
 }
 
-.fa-bars:hover .mega-box {
+.box-bars{
+    float: left;
+}
+
+.box-bars:hover .mega-box {
     display: block;
+}
+
+.rightSection-bars .box-bars:hover {
+    color: #F16D7F;
 }
 
 .mega-box .mega-heading {
@@ -133,9 +142,7 @@
     margin-left: 20px;
 }
 
-.mega-box .mega-item-women:hover {
-    color: #F16D7F;
-}
+
 
 .item-women .mega-heading-women {
     margin-top: 20px;
@@ -170,7 +177,7 @@
     margin-top: 20px;
 }
 
-
+/* End Menu */
 
 .fa-solid {
     font-size: 30px;
