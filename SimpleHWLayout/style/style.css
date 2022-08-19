@@ -816,3 +816,176 @@
 .soc-box:hover .fa-brands {
     color: #fff;
 }
+
+
+/* Страница Product */
+
+.lowerSectionNav {
+    background: #F8F3F4;
+    height: 148px;
+    
+}
+
+.lowerSectionNav .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lowerSectionNav h2 {
+    margin-left: 230px;
+    margin-top: 59px;
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #F16D7F;
+}
+
+.lowerSectionNav .breadCrumbs {
+    margin-right: 230px;
+    margin-top: 65px;
+}
+
+.breadCrumbs span {
+    font-family: 'Lato';
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #636363;
+}
+
+.breadCrumbs span b {
+    color: #F16D7F;
+}
+
+.breadCrumbs span a {
+    text-decoration: none;
+    color: #636363;
+}
+
+.breadCrumbs span a:hover {
+    color: #F16D7F;
+}
+
+/* Секция с слайдером */
+.slider {
+    
+    background-color: #F7F7F7;
+}
+
+.slider .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.slider .container a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.leftSlider {
+    width: 47px;
+    height: 47px;
+    background: rgba(42, 42, 42, 0.15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightSlider {
+    width: 47px;
+    height: 47px;
+    background: rgba(42, 42, 42, 0.15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider img {
+    padding-top: 11px;
+    padding-bottom: 42px;   
+}
+
+.slider i {
+    color: #F16D7F;
+}
+
+.slider a:hover i {
+    color: #000000;
+}
+
+/* Секцич с описанием продукта */
+
+.contentProduct {
+    border: 1px solid #EAEAEA;
+    width: 1140px;
+    height: 600.18px;
+    margin: auto;
+    transform: translate(0,-65px);
+    background-color: #FFFFFF;
+    padding-top: 64.5px;
+    text-align: center;
+}
+
+.contentProduct h2 {
+    font-family: 'Lato';
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #F16D7F;
+    display: inline-block;
+    padding-bottom: 12px;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.contentProduct h2::after{
+    content: "";
+    position: absolute;
+    height: 3px;
+    background-color: #EF5B70;
+    width: 63px;
+    left: 43.12px;
+    top: 29.4px;
+}
+
+.contentProduct h3 {
+    font-family: 'Lato';
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    color: #4D4D4D;
+    margin-bottom: 48.41px;
+}
+
+.contentProduct p {
+    font-family: 'Lato';
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #5E5E5E;
+    width: 555px;
+    margin: 0 auto 32.27px auto;
+}
+
+.contentProduct span {
+    font-family: 'Lato';
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #EF5B70;
+    padding-bottom: 65px;
+    position: relative;
+}
+
+.contentProduct span::after {
+    content: "";
+    position: absolute;
+    height: 1px;
+    background-color: #EAEAEA;
+    width: 641px;
+    left: -300px;
+    top: 89px;
+}
