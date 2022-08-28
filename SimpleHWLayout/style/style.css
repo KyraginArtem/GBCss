@@ -926,6 +926,7 @@
     background-color: #FFFFFF;
     padding-top: 64.5px;
     text-align: center;
+    margin-bottom: 63px;
 }
 
 .contentProduct h2 {
@@ -978,6 +979,7 @@
     color: #EF5B70;
     padding-bottom: 65px;
     position: relative;
+    display: inline-block;
 }
 
 .contentProduct span::after {
@@ -988,4 +990,177 @@
     width: 641px;
     left: -300px;
     top: 89px;
+}
+
+
+/* Секция с баяном */
+.contentProduct-box form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contentProduct-box .wrapper {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+
+.contentProduct-box form details {
+    margin-right: 23px;
+    margin-top: 65px;
+    cursor: pointer;
+}
+
+.contentProduct-box form details:last-child {
+    margin-right: 0px;
+}
+
+.contentProduct-box summary {
+    display: block;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6F6E6E;
+}
+
+.contentProduct-box 
+summary::-webkit-details-marker {
+    display: none;
+}
+
+.contentProduct-box 
+summary::after {
+    content: "\02C5";
+    font-family: "Font Awesome  Brands Free";
+    padding-left: 0.5em;
+    color: #6F6E6E;
+}
+
+.contentProduct-box form 
+details[open] > summary::after {
+    content: '\02C4';
+    font-family: "Font Awesome 5 Brands Free";
+    padding-left: 0.5em;
+}
+
+.contentProduct-box ul a {
+    text-decoration: none;
+    color: #6F6E6E;
+    display: flex;
+    justify-content: center;
+}
+
+.contentProduct-box ul li {
+    margin-right: 20px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center
+}
+
+.contentProduct-box .colorBlack {
+    width: 15px;
+    height: 15px;
+    background-color: black;
+    border: 1px solid;
+    display: inline-block;
+    margin-right: 17px;
+}
+
+.contentProduct-box .colorWhite {
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+    border: 1px solid;
+    display: inline-block;
+    margin-right: 11px;
+}
+
+.contentProduct-box .colorYellow {
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    margin-right: 10px;
+    background-color: yellow;
+    border: 1px solid;
+}
+
+.contentProduct-box ul {
+    list-style: none;
+}
+
+.contentProduct-box-size ul li {
+    display: flex;
+    justify-content: end;
+}
+
+.contentProduct-box-size ul li input {
+    margin-left: 10px;
+}
+
+.contentProduct-box-quantity input {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 50px;
+    border: 1px solid #FF6A6A;
+    outline: none;
+}
+
+.contentProsuct-wrapper-buttom{
+    position: absolute;
+    bottom: 49px;
+    left: 40%;
+}
+
+.contentProduct-box-button {
+    width: 211px;
+    height: 47.4px;
+    border: 1px solid #FF6A6A;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contentProduct-box-button p {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 47px;
+    color: #F26376;
+    margin-right: 56.5px;
+}
+
+.contentProsuct-wrapper-buttom a {
+    text-decoration: none;
+}
+
+.contentProsuct-wrapper-buttom i {
+    color: #EF5B70;
+    margin-left: 23.5px;
+    line-height: 46px;
+}
+
+.contentProsuct-wrapper-buttom a:hover
+i {
+    color: #fff;
+}
+
+.contentProsuct-wrapper-buttom a:hover
+p {
+    color: #fff;
+}
+
+.contentProsuct-wrapper-buttom a:hover
+.contentProduct-box-button {
+    background-color: #FF6A6A;
+}
+
+.footer-product {
+    margin-top: 98px;
 }
