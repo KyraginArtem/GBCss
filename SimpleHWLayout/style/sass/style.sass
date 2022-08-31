@@ -3,6 +3,8 @@
     padding: 0px
     box-sizing: border-box
 
+
+
 /* Хедер */
 /* ----- */
 
@@ -171,302 +173,12 @@
             line-height: 57.6px
 
 /* Блок Навигации в секции контента */
-
-.section-nav 
-    background-color: #ffffff
-    margin: 0 auto
-    width: 1140px
-
-.nav-menu-container 
-    display: flex
-    justify-content: space-between
-    align-items: center
-    margin-top: 65px
-    .forWomen:after
-        content: ''
-        position: absolute
-        top: 0
-        left: 0
-        right: 0
-        bottom: 0
-        background: rgba(33, 22, 22, 0.7)
-        opacity: 1
-    .forWomen:before
-        content: ''
-        position: absolute
-        top: 0
-        left: 0
-        right: 0
-        bottom: 0
-        background: url(../img/bg-content-menu/bgForWomen.png)
-        opacity: 1
-    .forWomen:hover:before,
-    .forWomen:hover:after
-        opacity: 0
-    .forMen:after
-        content: ''
-        position: absolute
-        top: 0
-        left: 0
-        right: 0
-        bottom: 0
-        background: rgba(0, 0, 0, .5)
-        opacity: 1
-    .forMen:before
-        content: ''
-        position: absolute
-        top: 0
-        left: 0
-        right: 0
-        bottom: 0
-        background: url(icon-path)
-        opacity: 1
-    .forMen:hover:before,
-    .forMen:hover:after
-        opacity: 0
-    .forKids:after
-        content: ''
-        position: absolute
-        top: 0
-        left: 0
-        right: 0
-        bottom: 0
-        background: rgba(0, 0, 0, .5)
-        opacity: 1
-    .forKids:before
-        content: ''
-        position: absolute
-        top: 0
-        left: 0
-        right: 0
-        bottom: 0
-        background: url(icon-path)
-        opacity: 1
-    .forKids:hover:before,
-    .forKids:hover:after
-        opacity: 0
-
-.nav-menu 
-    a 
-        width: 360px
-        height: 260px
-        position: relative
-        display: block
-        text-decoration: none
-    .accesories
-        width: 1140px
-        height: 180px
-        margin: 30px auto 96px auto
-    .accesories:after
-        content: ''
-        position: absolute
-        top: 0
-        left: 0
-        right: 0
-        bottom: 0
-        background: rgba(0, 0, 0, .5)
-        opacity: 1
-    .accesories:before
-        content: ''
-        position: absolute
-        top: 0
-        left: 0
-        right: 0
-        bottom: 0
-        background: url(icon-path)
-        opacity: 1
-    .accesories:hover:before,
-    .accesories:hover:after
-         opacity: 0
-
-/* Текст в блоках content-menu */
-
-.nav-menu 
-    .menu-container-text 
-        text-align: center
-        position: absolute
-        top: 50%
-        left: 50%
-        transform: translate(-50%, -50%)
-        span
-            font-family: 'Lato'
-            font-weight: 700
-            font-size: 24px
-            line-height: 28.8px
-            color: #F16D7F
-    .accesories-text-container
-        text-align: center
-        position: absolute
-        top: 50%
-        left: 50%
-        transform: translate(-50%, -50%)
-        span
-            font-family: 'Lato'
-            font-weight: 700
-            font-size: 24px
-            line-height: 28.8px
-            color: #F16D7F
-    .container-text-header
-        font-family: 'Lato'
-        font-weight: 400
-        font-size: 16px
-        line-height: 19.2px
-        color: #ffffff
+@import 'index-sectionContent-nav'
 
 /* ProductBoard */
+@import 'index-sectionContent-productBoard'
 
-.productBoard 
-    background-color: #ffffff
-    margin: 0 auto
-    width: 1140px
-    h2
-        font-family: 'Lato'
-        font-style: normal
-        font-weight: 400
-        font-size: 30px
-        line-height: 36px
-        text-align: center
-        color: #222222
-        margin-bottom: 6px
-
-.productBoard-text 
-    font-family: 'Lato'
-    font-style: normal
-    font-weight: 400
-    font-size: 14px
-    line-height: 17px
-    text-align: center
-    color: #9F9F9F
-    margin-bottom: 48px
-
-.productBoard-container 
-    display: flex
-    flex-wrap: wrap
-    justify-content: space-between
-    margin: auto
-    figure
-        position: relative
-    figure:hover .pic
-        transform: scale(1.1)
-        filter: brightness(30%)
-    figure:hover .box
-        filter: brightness(30%)
-
-/* уведичение картинки пр наведении */
-.container-product 
-    .pic 
-        transition: 0.5s
-        display: block
-    .picther-box
-        display: inline-block
-        overflow: hidden
-
-/* появление кнопки добавить в карзину */ 
-.productBoard-container 
-    figure .add:hover 
-        box-shadow: 0px 0px 10px 0px #fff
-    figure:hover .add-box
-        display: flex
-    figure:nth-child(-n+3) 
-        margin-bottom: 30px
-    .container-product 
-        width: 360px
-        background-color: #F8F8F8
-        padding-bottom: 20px
-
-.box 
-    background-color: #F7E4E2
-    width: 360px
-    height: 420px
-    img
-        margin-left: 108px
-        margin-top: 9px
-
-.productBoard-container a 
-    text-decoration: none
-    display: block
-
-.container-product
-    a 
-        text-decoration: none
-    h2 
-        font-family: 'Lato'
-        font-style: normal
-        font-weight: 400
-        font-size: 13px
-        line-height: 16px
-        margin-top: 25.35px
-        text-align: start
-        margin-left: 18px
-        text-decoration: none
-        color: #000000
-    p 
-        font-family: 'Lato'
-        font-style: normal
-        font-weight: 300
-        font-size: 14px
-        line-height: 17px
-        text-align: start
-        margin-left: 16px
-        margin-top: 13px
-        margin-bottom: 18px
-        color: #5D5D5D
-    span 
-        font-family: 'Lato'
-        font-style: normal
-        font-weight: 400
-        font-size: 16px
-        line-height: 19px
-        margin-left: 18px
-        color: #F16D7F
-
-.productBoard-container 
-    figure:hover 
-        box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0)
-
-.productBoard 
-    button 
-        margin: 49px auto 96px auto
-        display: block
-        border: 1px solid #FF6A6A
-        font-family: 'Lato'
-        font-weight: 400
-        font-size: 16px
-        line-height: 19px
-        padding: 15px 39px 15px 39px
-        color: #F26376
-        background: #ffffff
-    button:hover 
-        background-color: #F16D7F
-        color: #ffffff
-
-// кнопка добавить в карзину на картачке с товара
- .productBoard-container 
-    figure 
-        .add 
-            display: flex
-            padding: 8px
-            border: 1px solid #ffff
-            align-items: center
-            text-decoration: none
-            pointer-events: all
-            .add-desc
-                font-family: 'Lato'
-                font-weight: 400
-                font-size: 14px
-                line-height: 17px
-                color: #FFFFFF
-                margin-left: 11px
-
- .add-box 
-    display: none
-    justify-content: center
-    width: 100%
-    position: absolute
-    top: 188px
-    pointer-events: none
-    
-// Footer 
+/* Footer */
 .ourAdvantages 
     background: #222224
     height: 341px
@@ -476,9 +188,9 @@
         padding: 0 230px 0 230px
         article
             width: 360px
-        height: 164px
-        margin-top: 103px
-        text-align: center
+            height: 164px
+            margin-top: 103px
+            text-align: center
 
 .ourAdvantages 
     .container 
@@ -509,11 +221,9 @@
     margin: auto
     width: 1598px
     height: 448px
-    background-image: url(../img/bg-footer/bg-footer.png)
+    background-image: url(../../img/bg-footer/bg-footer.png)
     .filtr 
         content: ''
-        // width: 1598px
-        // height: 448px 
         position: absolute
         left: 0%
         right: 0%
@@ -630,57 +340,55 @@
     
 
 /* Страница Product */
-
 .lowerSectionNav 
     background: #F8F3F4
     height: 148px
-    
-.lowerSectionNav .container 
-    display: flex
-    justify-content: space-between
-
-.lowerSectionNav h2 
-    margin-left: 230px
-    margin-top: 59px
-    font-family: 'Lato'
-    font-weight: 400
-    font-size: 24px
-    line-height: 29px
-    color: #F16D7F
-
-.lowerSectionNav .breadCrumbs 
-    margin-right: 230px
-    margin-top: 65px
-
-.breadCrumbs span 
-    font-family: 'Lato'
-    font-weight: 300
-    font-size: 14px
-    line-height: 17px
-    color: #636363
-
-.breadCrumbs span b 
-    color: #F16D7F
-
-.breadCrumbs span a 
-    text-decoration: none
-    color: #636363
-
-.breadCrumbs span a:hover 
-    color: #F16D7F
+    .container
+        display: flex
+        justify-content: space-between 
+        h2
+            margin-left: 230px
+            margin-top: 59px
+            font-family: 'Lato'
+            font-weight: 400
+            font-size: 24px
+            line-height: 29px
+            color: #F16D7F
+        .breadCrumbs
+            margin-right: 230px
+            margin-top: 65px
+            span
+                font-family: 'Lato'
+                font-weight: 300
+                font-size: 14px
+                line-height: 17px
+                color: #636363
+                b
+                    color: #F16D7F
+                a
+                    text-decoration: none
+                    color: #636363
+                a:hover
+                    color: #F16D7F
 
 /* Секция с слайдером */
 .slider 
     background-color: #F7F7F7
-
-.slider .container 
-    display: flex
-    justify-content: space-around
-    align-items: center
-
-.slider .container a 
-    text-decoration: none
-    color: #000000
+    .container
+        display: flex
+        justify-content: space-around
+        align-items: center
+        a
+            text-decoration: none
+            color: #000000
+    img 
+        padding-top: 11px
+        padding-bottom: 42px   
+    i 
+        color: #F16D7F
+    a:hover 
+        i 
+            color: #000000
 
 .leftSlider 
     width: 47px
@@ -698,16 +406,6 @@
     justify-content: center
     align-items: center
 
-.slider img 
-    padding-top: 11px
-    padding-bottom: 42px   
-
-.slider i 
-    color: #F16D7F
-
-.slider a:hover i 
-    color: #000000
-
 /* Секцич с описанием продукта */
 
 .contentProduct 
@@ -720,161 +418,146 @@
     padding-top: 64.5px
     text-align: center
     margin-bottom: 63px
-
-.contentProduct h2 
-    font-family: 'Lato'
-    font-weight: 300
-    font-size: 14px
-    line-height: 17px
-    color: #F16D7F
-    display: inline-block
-    padding-bottom: 12px
-    position: relative
-    margin-bottom: 15px
-
-.contentProduct h2::after
-    content: ""
-    position: absolute
-    height: 3px
-    background-color: #EF5B70
-    width: 63px
-    left: 43.12px
-    top: 29.4px
-
-.contentProduct h3 
-    font-family: 'Lato'
-    font-weight: 300
-    font-size: 18px
-    line-height: 22px
-    color: #4D4D4D
-    margin-bottom: 48.41px
-
-.contentProduct p 
-    font-family: 'Lato'
-    font-weight: 300
-    font-size: 14px
-    line-height: 17px
-    text-align: center
-    color: #5E5E5E
-    width: 555px
-    margin: 0 auto 32.27px auto
-
-.contentProduct span 
-    font-family: 'Lato'
-    font-weight: 300
-    font-size: 24px
-    line-height: 29px
-    color: #EF5B70
-    padding-bottom: 65px
-    position: relative
-    display: inline-block
-
-.contentProduct span::after 
-    content: ""
-    position: absolute
-    height: 1px
-    background-color: #EAEAEA
-    width: 641px
-    left: -300px
-    top: 89px
+    h2 
+        font-family: 'Lato'
+        font-weight: 300
+        font-size: 14px
+        line-height: 17px
+        color: #F16D7F
+        display: inline-block
+        padding-bottom: 12px
+        position: relative
+        margin-bottom: 15px
+    h2::after
+        content: ""
+        position: absolute
+        height: 3px
+        background-color: #EF5B70
+        width: 63px
+        left: 43.12px
+        top: 29.4px
+    h3 
+        font-family: 'Lato'
+        font-weight: 300
+        font-size: 18px
+        line-height: 22px
+        color: #4D4D4D
+        margin-bottom: 48.41px
+    p 
+        font-family: 'Lato'
+        font-weight: 300
+        font-size: 14px
+        line-height: 17px
+        text-align: center
+        color: #5E5E5E
+        width: 555px
+        margin: 0 auto 32.27px auto
+    span 
+        font-family: 'Lato'
+        font-weight: 300
+        font-size: 24px
+        line-height: 29px
+        color: #EF5B70
+        padding-bottom: 65px
+        position: relative
+        display: inline-block
+    span::after 
+        content: ""
+        position: absolute
+        height: 1px
+        background-color: #EAEAEA
+        width: 641px
+        left: -300px
+        top: 89px
 
 /* Секция с баяном */
-.contentProduct-box form 
-    display: flex
-    flex-wrap: wrap
-    justify-content: center
+.contentProduct-box 
+    form 
+        display: flex
+        flex-wrap: wrap
+        justify-content: center
+        details
+            margin-right: 23px
+            margin-top: 65px
+            cursor: pointer
+        details:last-child
+            margin-right: 0px
+        details[open] > summary::after
+            content: '\02C4'
+            font-family: "Font Awesome 5 Brands Free"
+            padding-left: 0.5em
+    .wrapper 
+        display: flex
+        justify-content: center
+        position: relative
+    summary  
+        display: block
+        font-family: 'Lato'
+        font-style: normal
+        font-weight: 400
+        font-size: 14px
+        line-height: 17px
+        color: #6F6E6E
+    summary::-webkit-details-marker 
+        display: none
+    summary::after 
+        content: "\02C5"
+        font-family: "Font Awesome  Brands Free"
+        padding-left: 0.5em
+        color: #6F6E6E
+    ul
+        a 
+            text-decoration: none
+            color: #6F6E6E
+            display: flex
+            justify-content: center
+        li 
+            margin-right: 20px
+            font-family: 'Lato'
+            font-style: normal
+            font-weight: 300
+            font-size: 14px
+            line-height: 17px
+            text-align: center
+    .colorBlack 
+        width: 15px
+        height: 15px
+        background-color: black
+        border: 1px solid
+        display: inline-block
+        margin-right: 17px
+    .colorWhite 
+        width: 15px
+        height: 15px
+        background-color: #fff
+        border: 1px solid
+        display: inline-block
+        margin-right: 11px
+    .colorYellow 
+        width: 15px
+        height: 15px
+        display: inline-block
+        margin-right: 10px
+        background-color: yellow
+        border: 1px solid
+    ul 
+        list-style: none
 
-.contentProduct-box .wrapper 
-    display: flex
-    justify-content: center
-    position: relative
+.contentProduct-box-size 
+    ul 
+        li 
+            display: flex
+            justify-content: end
+            input
+                margin-left: 10px
 
-.contentProduct-box form details 
-    margin-right: 23px
-    margin-top: 65px
-    cursor: pointer
-
-.contentProduct-box form details:last-child 
-    margin-right: 0px
-
-.contentProduct-box summary 
-    display: block
-    font-family: 'Lato'
-    font-style: normal
-    font-weight: 400
-    font-size: 14px
-    line-height: 17px
-    color: #6F6E6E
-
-.contentProduct-box summary::-webkit-details-marker 
-    display: none
-
-.contentProduct-box summary::after 
-    content: "\02C5"
-    font-family: "Font Awesome  Brands Free"
-    padding-left: 0.5em
-    color: #6F6E6E
-
-.contentProduct-box form details[open] > summary::after 
-    content: '\02C4'
-    font-family: "Font Awesome 5 Brands Free"
-    padding-left: 0.5em
-
-.contentProduct-box ul a 
-    text-decoration: none
-    color: #6F6E6E
-    display: flex
-    justify-content: center
-
-.contentProduct-box ul li 
-    margin-right: 20px
-    font-family: 'Lato'
-    font-style: normal
-    font-weight: 300
-    font-size: 14px
-    line-height: 17px
-    text-align: center
-
-.contentProduct-box .colorBlack 
-    width: 15px
-    height: 15px
-    background-color: black
-    border: 1px solid
-    display: inline-block
-    margin-right: 17px
-
-.contentProduct-box .colorWhite 
-    width: 15px
-    height: 15px
-    background-color: #fff
-    border: 1px solid
-    display: inline-block
-    margin-right: 11px
-
-.contentProduct-box .colorYellow 
-    width: 15px
-    height: 15px
-    display: inline-block
-    margin-right: 10px
-    background-color: yellow
-    border: 1px solid
-
-.contentProduct-box ul 
-    list-style: none
-
-.contentProduct-box-size ul li 
-    display: flex
-    justify-content: end
-
-.contentProduct-box-size ul li input 
-    margin-left: 10px
-
-.contentProduct-box-quantity input 
-    padding-left: 5px
-    padding-right: 5px
-    width: 50px
-    border: 1px solid #FF6A6A
-    outline: none
+.contentProduct-box-quantity 
+    input 
+        padding-left: 5px
+        padding-right: 5px
+        width: 50px
+        border: 1px solid #FF6A6A
+        outline: none
 
 .contentProsuct-wrapper-buttom
     position: absolute
@@ -887,32 +570,31 @@
     border: 1px solid #FF6A6A
     display: flex
     justify-content: space-between
+    p
+        font-family: 'Lato'
+        font-style: normal
+        font-weight: 400
+        font-size: 16px
+        line-height: 47px
+        color: #F26376
+        margin-right: 56.5px
 
-.contentProduct-box-button p 
-    font-family: 'Lato'
-    font-style: normal
-    font-weight: 400
-    font-size: 16px
-    line-height: 47px
-    color: #F26376
-    margin-right: 56.5px
-
-.contentProsuct-wrapper-buttom a 
-    text-decoration: none
-
-.contentProsuct-wrapper-buttom i 
-    color: #EF5B70
-    margin-left: 23.5px
-    line-height: 46px
-
-.contentProsuct-wrapper-buttom a:hover i 
-    color: #fff
-
-.contentProsuct-wrapper-buttom a:hover p 
-    color: #fff
-
-.contentProsuct-wrapper-buttom a:hover .contentProduct-box-button 
-    background-color: #FF6A6A
+.contentProsuct-wrapper-buttom 
+    a 
+        text-decoration: none
+    i
+        color: #EF5B70
+        margin-left: 23.5px
+        line-height: 46px
+    a:hover 
+        i 
+            color: #fff
+    a:hover 
+        p
+            color: #fff
+    a:hover 
+        .contentProduct-box-button 
+            background-color: #FF6A6A
 
 .footer-product 
     margin-top: 98px
