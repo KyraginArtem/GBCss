@@ -1,0 +1,918 @@
+*
+    margin: 0px
+    padding: 0px
+    box-sizing: border-box
+
+/* Хедер */
+/* ----- */
+
+.container 
+    margin: 0 auto
+    width: 1600px
+
+.header-menu .container 
+    display: flex
+    justify-content: space-between
+    align-items: center
+
+.leftSection a:first-child 
+    margin-left: 231px
+    margin-right: 41px
+
+.rightSection 
+    position: relative
+    > a
+        margin-right: 33px
+        text-decoration: none
+    a
+        text-decoration: none
+    .rightSection-cart
+        position: relative
+    .rightSection-cart:after
+        content: '5'
+        padding-left: 6.6px
+        padding-bottom: 6px
+        bottom: 15px
+        left: 25px
+        border-radius: 50%
+        position: absolute
+        text-decoration: none
+        width: 19px
+        height: 19px
+        color: #ffffff
+        font-weight: 400
+        font-family: "Lato", sans-serif
+        font-size: 19px
+        background-color: #F16D7F
+    .rightSection-cart
+        margin-right: 240px
+        
+/* Menu */
+
+.mega-box 
+    background-color: #fff
+    padding: 34px
+    box-shadow: 0px 1px 10px 0px
+    position: absolute
+    z-index: 1
+    display: none
+    .mega-heading
+        font-family: 'Lato'
+        font-weight: 700
+        font-size: 14px
+        line-height: 17px
+        color: #000000
+        width: 232px
+        margin-bottom: 24px
+    .mega-heading-man
+        font-family: 'Lato'
+        font-style: normal
+        font-weight: 400
+        font-size: 14px
+        line-height: 17px
+        color: #F16D7F
+        margin-bottom: 12px
+    .mega-item-man
+        font-family: 'Lato'
+        font-weight: 400
+        font-size: 14px
+        line-height: 17px
+        color: #6F6E6E
+        display: block
+        margin-bottom: 11px
+        margin-left: 20px
+    .mega-item-man:hover
+        color: #F16D7F
+    .mega-heading-women
+        font-family: 'Lato'
+        font-style: normal
+        font-weight: 400
+        font-size: 14px
+        line-height: 17px
+        color: #F16D7F
+        margin-bottom: 12px
+    .mega-item-women
+        font-family: 'Lato'
+        font-weight: 400
+        font-size: 14px
+        line-height: 17px
+        color: #6F6E6E
+        display: block
+        margin-bottom: 11px
+        margin-left: 20px
+    .mega-heading-kids
+        font-family: 'Lato'
+        font-style: normal
+        font-weight: 400
+        font-size: 14px
+        line-height: 17px
+        color: #F16D7F
+        margin-bottom: 12px
+    .mega-item-kids
+        font-family: 'Lato'
+        font-weight: 400
+        font-size: 14px
+        line-height: 17px
+        color: #6F6E6E
+        display: block
+        margin-bottom: 11px
+        margin-left: 20px
+    .mega-item-kids:hover
+        color: #F16D7F
+
+.box-bars
+    float: left
+
+.box-bars:hover .mega-box 
+    display: block
+
+.rightSection-bars .box-bars:hover 
+    color: #F16D7F
+
+.item-women .mega-heading-women 
+    margin-top: 20px
+
+.item-kids .mega-heading-kids 
+    margin-top: 20px
+
+/* End Menu */
+
+.fa-solid 
+    font-size: 30px
+    color: #E8E8E8
+
+.fa-solid:hover 
+    color: #F16D7F
+
+.header-menu 
+    background-color: #222222
+    height: 75px
+    margin: auto
+    display: flex
+
+.header-banner 
+    background-color: #F1E4E6
+    .container
+         display: flex
+    .container h1
+        position: absolute
+        margin-top: 290px
+        margin-left: 864px
+        border-left: 12px solid #F16D7F
+        padding-left: 16px
+        font-family: "Lato", sans-serif
+        color: #222222
+        span
+            color: #F16D7F
+            font-family: "Lato", sans-serif
+        b
+            font-weight: 900
+            font-size: 48px
+            line-height: 57.6px
+
+/* Блок Навигации в секции контента */
+
+.section-nav 
+    background-color: #ffffff
+    margin: 0 auto
+    width: 1140px
+
+.nav-menu-container 
+    display: flex
+    justify-content: space-between
+    align-items: center
+    margin-top: 65px
+    .forWomen:after
+        content: ''
+        position: absolute
+        top: 0
+        left: 0
+        right: 0
+        bottom: 0
+        background: rgba(33, 22, 22, 0.7)
+        opacity: 1
+    .forWomen:before
+        content: ''
+        position: absolute
+        top: 0
+        left: 0
+        right: 0
+        bottom: 0
+        background: url(../img/bg-content-menu/bgForWomen.png)
+        opacity: 1
+    .forWomen:hover:before,
+    .forWomen:hover:after
+        opacity: 0
+    .forMen:after
+        content: ''
+        position: absolute
+        top: 0
+        left: 0
+        right: 0
+        bottom: 0
+        background: rgba(0, 0, 0, .5)
+        opacity: 1
+    .forMen:before
+        content: ''
+        position: absolute
+        top: 0
+        left: 0
+        right: 0
+        bottom: 0
+        background: url(icon-path)
+        opacity: 1
+    .forMen:hover:before,
+    .forMen:hover:after
+        opacity: 0
+    .forKids:after
+        content: ''
+        position: absolute
+        top: 0
+        left: 0
+        right: 0
+        bottom: 0
+        background: rgba(0, 0, 0, .5)
+        opacity: 1
+    .forKids:before
+        content: ''
+        position: absolute
+        top: 0
+        left: 0
+        right: 0
+        bottom: 0
+        background: url(icon-path)
+        opacity: 1
+    .forKids:hover:before,
+    .forKids:hover:after
+        opacity: 0
+
+.nav-menu 
+    a 
+        width: 360px
+        height: 260px
+        position: relative
+        display: block
+        text-decoration: none
+    .accesories
+        width: 1140px
+        height: 180px
+        margin: 30px auto 96px auto
+    .accesories:after
+        content: ''
+        position: absolute
+        top: 0
+        left: 0
+        right: 0
+        bottom: 0
+        background: rgba(0, 0, 0, .5)
+        opacity: 1
+    .accesories:before
+        content: ''
+        position: absolute
+        top: 0
+        left: 0
+        right: 0
+        bottom: 0
+        background: url(icon-path)
+        opacity: 1
+    .accesories:hover:before,
+    .accesories:hover:after
+         opacity: 0
+
+/* Текст в блоках content-menu */
+
+.nav-menu 
+    .menu-container-text 
+        text-align: center
+        position: absolute
+        top: 50%
+        left: 50%
+        transform: translate(-50%, -50%)
+        span
+            font-family: 'Lato'
+            font-weight: 700
+            font-size: 24px
+            line-height: 28.8px
+            color: #F16D7F
+    .accesories-text-container
+        text-align: center
+        position: absolute
+        top: 50%
+        left: 50%
+        transform: translate(-50%, -50%)
+        span
+            font-family: 'Lato'
+            font-weight: 700
+            font-size: 24px
+            line-height: 28.8px
+            color: #F16D7F
+    .container-text-header
+        font-family: 'Lato'
+        font-weight: 400
+        font-size: 16px
+        line-height: 19.2px
+        color: #ffffff
+
+/* ProductBoard */
+
+.productBoard 
+    background-color: #ffffff
+    margin: 0 auto
+    width: 1140px
+    h2
+        font-family: 'Lato'
+        font-style: normal
+        font-weight: 400
+        font-size: 30px
+        line-height: 36px
+        text-align: center
+        color: #222222
+        margin-bottom: 6px
+
+.productBoard-text 
+    font-family: 'Lato'
+    font-style: normal
+    font-weight: 400
+    font-size: 14px
+    line-height: 17px
+    text-align: center
+    color: #9F9F9F
+    margin-bottom: 48px
+
+.productBoard-container 
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-between
+    margin: auto
+    figure
+        position: relative
+    figure:hover .pic
+        transform: scale(1.1)
+        filter: brightness(30%)
+    figure:hover .box
+        filter: brightness(30%)
+
+/* уведичение картинки пр наведении */
+.container-product 
+    .pic 
+        transition: 0.5s
+        display: block
+    .picther-box
+        display: inline-block
+        overflow: hidden
+
+/* появление кнопки добавить в карзину */ 
+.productBoard-container 
+    figure .add:hover 
+        box-shadow: 0px 0px 10px 0px #fff
+    figure:hover .add-box
+        display: flex
+    figure:nth-child(-n+3) 
+        margin-bottom: 30px
+    .container-product 
+        width: 360px
+        background-color: #F8F8F8
+        padding-bottom: 20px
+
+.box 
+    background-color: #F7E4E2
+    width: 360px
+    height: 420px
+    img
+        margin-left: 108px
+        margin-top: 9px
+
+.productBoard-container a 
+    text-decoration: none
+    display: block
+
+.container-product
+    a 
+        text-decoration: none
+    h2 
+        font-family: 'Lato'
+        font-style: normal
+        font-weight: 400
+        font-size: 13px
+        line-height: 16px
+        margin-top: 25.35px
+        text-align: start
+        margin-left: 18px
+        text-decoration: none
+        color: #000000
+    p 
+        font-family: 'Lato'
+        font-style: normal
+        font-weight: 300
+        font-size: 14px
+        line-height: 17px
+        text-align: start
+        margin-left: 16px
+        margin-top: 13px
+        margin-bottom: 18px
+        color: #5D5D5D
+    span 
+        font-family: 'Lato'
+        font-style: normal
+        font-weight: 400
+        font-size: 16px
+        line-height: 19px
+        margin-left: 18px
+        color: #F16D7F
+
+.productBoard-container 
+    figure:hover 
+        box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0)
+
+.productBoard 
+    button 
+        margin: 49px auto 96px auto
+        display: block
+        border: 1px solid #FF6A6A
+        font-family: 'Lato'
+        font-weight: 400
+        font-size: 16px
+        line-height: 19px
+        padding: 15px 39px 15px 39px
+        color: #F26376
+        background: #ffffff
+    button:hover 
+        background-color: #F16D7F
+        color: #ffffff
+
+// кнопка добавить в карзину на картачке с товара
+ .productBoard-container 
+    figure 
+        .add 
+            display: flex
+            padding: 8px
+            border: 1px solid #ffff
+            align-items: center
+            text-decoration: none
+            pointer-events: all
+            .add-desc
+                font-family: 'Lato'
+                font-weight: 400
+                font-size: 14px
+                line-height: 17px
+                color: #FFFFFF
+                margin-left: 11px
+
+ .add-box 
+    display: none
+    justify-content: center
+    width: 100%
+    position: absolute
+    top: 188px
+    pointer-events: none
+    
+// Footer 
+.ourAdvantages 
+    background: #222224
+    height: 341px
+    .container
+        display: flex
+        justify-content: space-between
+        padding: 0 230px 0 230px
+        article
+            width: 360px
+        height: 164px
+        margin-top: 103px
+        text-align: center
+
+.ourAdvantages 
+    .container 
+        article:nth-child(1) img 
+            margin-bottom: 28px
+        article:nth-child(2) img
+            margin-bottom: 19px
+        article:nth-child(3) img
+            margin-bottom: 25px
+        article
+            h2
+                margin-bottom: 16px
+                font-family: 'Lato'
+                font-weight: 400
+                font-size: 19.96px
+                line-height: 24px
+                color: #FBFBFB
+            p
+                font-family: 'Lato'
+                font-weight: 300
+                font-size: 13.972px
+                line-height: 17px
+                text-align: center
+                color: #FBFBFB
+
+.contactUs 
+    position: relative
+    margin: auto
+    width: 1598px
+    height: 448px
+    background-image: url(../img/bg-footer/bg-footer.png)
+    .filtr 
+        content: ''
+        // width: 1598px
+        // height: 448px 
+        position: absolute
+        left: 0%
+        right: 0%
+        top: 0%
+        bottom: 0%
+        background: rgba(244, 244, 244, 0.7)
+    figure
+        position: absolute
+        width: 360px
+        height: 225px
+        left: 228px
+        top: 97px
+        text-align: center
+        img
+            margin-bottom: 30px
+        p
+            font-family: 'Lato'
+            font-weight: 400
+            font-size: 20px
+            line-height: 24px
+            color: #222224
+    form
+        position: absolute
+        width: 557px
+        height: 142px
+        left: 811px
+        top: 150px
+        text-align: center
+        h2
+            font-family: 'Lato'
+        font-weight: 700
+        font-size: 24px
+        line-height: 40px
+        color: #222224
+        p
+            font-family: 'Lato'
+            font-weight: 400
+            font-size: 18px
+            line-height: 30.1px
+            color: #222224
+            margin-bottom: 32px
+        input
+            border: 1px solid transparent
+            outline: none
+            width: 256px
+            height: 49px
+            padding-left: 22px
+            font-family: 'Lato'
+            font-weight: 400
+            font-size: 14px
+            color: #222224
+            border-radius: 25px 0 0 25px
+            background-color: #E1E1E1
+            left: 104px
+            position: absolute
+        button
+            font-family: 'Lato'
+            font-style: normal
+            font-weight: 400
+            font-size: 14px
+            line-height: 17px
+            color: #222224
+            background-color: transparent
+            width: 100px
+            height: 49px
+            border: 1px solid #FF6A6A
+            position: absolute
+            left: 360px
+            border-radius: 0 25px 25px 0
+        button:hover
+            color: #FFFFFF
+            background-color: #F16D7F
+
+.footer 
+    height: 79px
+    background: #222224
+    .container 
+        display: flex
+        justify-content: space-between
+        p
+            font-family: 'Lato'
+            font-weight: 400
+            font-size: 16px
+            line-height: 70px
+            color: #FBFBFB
+            margin-left: 235px
+
+.soc 
+    width: 147px
+    height: 32px
+    margin-right: 230px
+    margin-top: 24px
+    display: flex
+    justify-content: space-between
+
+.soc-box 
+    width: 32px
+    height: 32px
+    background-color: #fff
+    text-decoration: none
+    display: flex
+
+.fa-brands 
+    font-size: 16px
+    align-items: center
+    text-align: center
+    color: #000000
+    margin: auto
+
+.soc-box:hover  
+    background-color: #F16D7F
+    .fa-brands
+        color: #fff 
+    
+
+/* Страница Product */
+
+.lowerSectionNav 
+    background: #F8F3F4
+    height: 148px
+    
+.lowerSectionNav .container 
+    display: flex
+    justify-content: space-between
+
+.lowerSectionNav h2 
+    margin-left: 230px
+    margin-top: 59px
+    font-family: 'Lato'
+    font-weight: 400
+    font-size: 24px
+    line-height: 29px
+    color: #F16D7F
+
+.lowerSectionNav .breadCrumbs 
+    margin-right: 230px
+    margin-top: 65px
+
+.breadCrumbs span 
+    font-family: 'Lato'
+    font-weight: 300
+    font-size: 14px
+    line-height: 17px
+    color: #636363
+
+.breadCrumbs span b 
+    color: #F16D7F
+
+.breadCrumbs span a 
+    text-decoration: none
+    color: #636363
+
+.breadCrumbs span a:hover 
+    color: #F16D7F
+
+/* Секция с слайдером */
+.slider 
+    background-color: #F7F7F7
+
+.slider .container 
+    display: flex
+    justify-content: space-around
+    align-items: center
+
+.slider .container a 
+    text-decoration: none
+    color: #000000
+
+.leftSlider 
+    width: 47px
+    height: 47px
+    background: rgba(42, 42, 42, 0.15)
+    display: flex
+    justify-content: center
+    align-items: center
+
+.rightSlider 
+    width: 47px
+    height: 47px
+    background: rgba(42, 42, 42, 0.15)
+    display: flex
+    justify-content: center
+    align-items: center
+
+.slider img 
+    padding-top: 11px
+    padding-bottom: 42px   
+
+.slider i 
+    color: #F16D7F
+
+.slider a:hover i 
+    color: #000000
+
+/* Секцич с описанием продукта */
+
+.contentProduct 
+    border: 1px solid #EAEAEA
+    width: 1140px
+    height: 600.18px
+    margin: auto
+    transform: translate(0,-65px)
+    background-color: #FFFFFF
+    padding-top: 64.5px
+    text-align: center
+    margin-bottom: 63px
+
+.contentProduct h2 
+    font-family: 'Lato'
+    font-weight: 300
+    font-size: 14px
+    line-height: 17px
+    color: #F16D7F
+    display: inline-block
+    padding-bottom: 12px
+    position: relative
+    margin-bottom: 15px
+
+.contentProduct h2::after
+    content: ""
+    position: absolute
+    height: 3px
+    background-color: #EF5B70
+    width: 63px
+    left: 43.12px
+    top: 29.4px
+
+.contentProduct h3 
+    font-family: 'Lato'
+    font-weight: 300
+    font-size: 18px
+    line-height: 22px
+    color: #4D4D4D
+    margin-bottom: 48.41px
+
+.contentProduct p 
+    font-family: 'Lato'
+    font-weight: 300
+    font-size: 14px
+    line-height: 17px
+    text-align: center
+    color: #5E5E5E
+    width: 555px
+    margin: 0 auto 32.27px auto
+
+.contentProduct span 
+    font-family: 'Lato'
+    font-weight: 300
+    font-size: 24px
+    line-height: 29px
+    color: #EF5B70
+    padding-bottom: 65px
+    position: relative
+    display: inline-block
+
+.contentProduct span::after 
+    content: ""
+    position: absolute
+    height: 1px
+    background-color: #EAEAEA
+    width: 641px
+    left: -300px
+    top: 89px
+
+/* Секция с баяном */
+.contentProduct-box form 
+    display: flex
+    flex-wrap: wrap
+    justify-content: center
+
+.contentProduct-box .wrapper 
+    display: flex
+    justify-content: center
+    position: relative
+
+.contentProduct-box form details 
+    margin-right: 23px
+    margin-top: 65px
+    cursor: pointer
+
+.contentProduct-box form details:last-child 
+    margin-right: 0px
+
+.contentProduct-box summary 
+    display: block
+    font-family: 'Lato'
+    font-style: normal
+    font-weight: 400
+    font-size: 14px
+    line-height: 17px
+    color: #6F6E6E
+
+.contentProduct-box summary::-webkit-details-marker 
+    display: none
+
+.contentProduct-box summary::after 
+    content: "\02C5"
+    font-family: "Font Awesome  Brands Free"
+    padding-left: 0.5em
+    color: #6F6E6E
+
+.contentProduct-box form details[open] > summary::after 
+    content: '\02C4'
+    font-family: "Font Awesome 5 Brands Free"
+    padding-left: 0.5em
+
+.contentProduct-box ul a 
+    text-decoration: none
+    color: #6F6E6E
+    display: flex
+    justify-content: center
+
+.contentProduct-box ul li 
+    margin-right: 20px
+    font-family: 'Lato'
+    font-style: normal
+    font-weight: 300
+    font-size: 14px
+    line-height: 17px
+    text-align: center
+
+.contentProduct-box .colorBlack 
+    width: 15px
+    height: 15px
+    background-color: black
+    border: 1px solid
+    display: inline-block
+    margin-right: 17px
+
+.contentProduct-box .colorWhite 
+    width: 15px
+    height: 15px
+    background-color: #fff
+    border: 1px solid
+    display: inline-block
+    margin-right: 11px
+
+.contentProduct-box .colorYellow 
+    width: 15px
+    height: 15px
+    display: inline-block
+    margin-right: 10px
+    background-color: yellow
+    border: 1px solid
+
+.contentProduct-box ul 
+    list-style: none
+
+.contentProduct-box-size ul li 
+    display: flex
+    justify-content: end
+
+.contentProduct-box-size ul li input 
+    margin-left: 10px
+
+.contentProduct-box-quantity input 
+    padding-left: 5px
+    padding-right: 5px
+    width: 50px
+    border: 1px solid #FF6A6A
+    outline: none
+
+.contentProsuct-wrapper-buttom
+    position: absolute
+    bottom: 49px
+    left: 40%
+
+.contentProduct-box-button 
+    width: 211px
+    height: 47.4px
+    border: 1px solid #FF6A6A
+    display: flex
+    justify-content: space-between
+
+.contentProduct-box-button p 
+    font-family: 'Lato'
+    font-style: normal
+    font-weight: 400
+    font-size: 16px
+    line-height: 47px
+    color: #F26376
+    margin-right: 56.5px
+
+.contentProsuct-wrapper-buttom a 
+    text-decoration: none
+
+.contentProsuct-wrapper-buttom i 
+    color: #EF5B70
+    margin-left: 23.5px
+    line-height: 46px
+
+.contentProsuct-wrapper-buttom a:hover i 
+    color: #fff
+
+.contentProsuct-wrapper-buttom a:hover p 
+    color: #fff
+
+.contentProsuct-wrapper-buttom a:hover .contentProduct-box-button 
+    background-color: #FF6A6A
+
+.footer-product 
+    margin-top: 98px
