@@ -8,7 +8,12 @@
     bottom: 0
     opacity: 1
 
-    
+%lato-700
+    font-family: 'Lato'
+    font-weight: 700
+    font-size: 24px
+    line-height: 28.8px
+
 .section-nav 
     background-color: #ffffff
     margin: 0 auto
@@ -79,10 +84,7 @@
         left: 50%
         transform: translate(-50%, -50%)
         span
-            font-family: 'Lato'
-            font-weight: 700
-            font-size: 24px
-            line-height: 28.8px
+            @extend %lato-700
             color: #F16D7F
     .accesories-text-container
         text-align: center
@@ -91,10 +93,7 @@
         left: 50%
         transform: translate(-50%, -50%)
         span
-            font-family: 'Lato'
-            font-weight: 700
-            font-size: 24px
-            line-height: 28.8px
+            @extend %lato-700
             color: #F16D7F
     .container-text-header
         font-family: 'Lato'

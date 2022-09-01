@@ -1,11 +1,14 @@
+% lato-400 
+    font-family: 'Lato'
+    font-style: normal
+    font-weight: 400
+
 .productBoard 
     background-color: #ffffff
     margin: 0 auto
     width: 1140px
     h2
-        font-family: 'Lato'
-        font-style: normal
-        font-weight: 400
+        @extend %lato-400
         font-size: 30px
         line-height: 36px
         text-align: center
@@ -13,9 +16,7 @@
         margin-bottom: 6px
 
 .productBoard-text 
-    font-family: 'Lato'
-    font-style: normal
-    font-weight: 400
+    @extend %lato-400
     font-size: 14px
     line-height: 17px
     text-align: center
@@ -74,9 +75,7 @@
     a 
         text-decoration: none
     h2 
-        font-family: 'Lato'
-        font-style: normal
-        font-weight: 400
+        @extend %lato-400
         font-size: 13px
         line-height: 16px
         margin-top: 25.35px
@@ -96,9 +95,7 @@
         margin-bottom: 18px
         color: #5D5D5D
     span 
-        font-family: 'Lato'
-        font-style: normal
-        font-weight: 400
+        @extend %lato-400
         font-size: 16px
         line-height: 19px
         margin-left: 18px
@@ -113,8 +110,7 @@
         margin: 49px auto 96px auto
         display: block
         border: 1px solid #FF6A6A
-        font-family: 'Lato'
-        font-weight: 400
+        @extend %lato-400
         font-size: 16px
         line-height: 19px
         padding: 15px 39px 15px 39px
@@ -135,8 +131,7 @@
             text-decoration: none
             pointer-events: all
             .add-desc
-                font-family: 'Lato'
-                font-weight: 400
+                @extend %lato-400
                 font-size: 14px
                 line-height: 17px
                 color: #FFFFFF
