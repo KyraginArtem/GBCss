@@ -1,90 +1,3 @@
-*
-    margin: 0px
-    padding: 0px
-    box-sizing: border-box
-
-/* Хедер */
-@import 'header'
-
-@import 'bannerOnHeader'
-
-/* Блок Навигации в секции контента */
-@import 'sectionContent-nav'
-
-/* ProductBoard */
-@import 'sectionContent-productBoard'
-
-/* Footer */
-@import 'footer'
-    
-/* Страница Product */
-.lowerSectionNav 
-    background: #F8F3F4
-    height: 148px
-    .container
-        display: flex
-        justify-content: space-between 
-        h2
-            margin-left: 230px
-            margin-top: 59px
-            font-family: 'Lato'
-            font-weight: 400
-            font-size: 24px
-            line-height: 29px
-            color: #F16D7F
-        .breadCrumbs
-            margin-right: 230px
-            margin-top: 65px
-            span
-                font-family: 'Lato'
-                font-weight: 300
-                font-size: 14px
-                line-height: 17px
-                color: #636363
-                b
-                    color: #F16D7F
-                a
-                    text-decoration: none
-                    color: #636363
-                a:hover
-                    color: #F16D7F
-
-/* Секция с слайдером */
-.slider 
-    background-color: #F7F7F7
-    .container
-        display: flex
-        justify-content: space-around
-        align-items: center
-        a
-            text-decoration: none
-            color: #000000
-    img 
-        padding-top: 11px
-        padding-bottom: 42px   
-    i 
-        color: #F16D7F
-    a:hover 
-        i 
-            color: #000000
-
-.leftSlider 
-    width: 47px
-    height: 47px
-    background: rgba(42, 42, 42, 0.15)
-    display: flex
-    justify-content: center
-    align-items: center
-
-.rightSlider 
-    width: 47px
-    height: 47px
-    background: rgba(42, 42, 42, 0.15)
-    display: flex
-    justify-content: center
-    align-items: center
-
-/* Секция с описанием продукта */
 
 .contentProduct 
     border: 1px solid #EAEAEA
@@ -237,11 +150,6 @@
         border: 1px solid #FF6A6A
         outline: none
 
-.contentProsuct-wrapper-buttom
-    position: absolute
-    bottom: 49px
-    left: 40%
-
 .contentProduct-box-button 
     width: 211px
     height: 47.4px
@@ -257,7 +165,10 @@
         color: #F26376
         margin-right: 56.5px
 
-.contentProsuct-wrapper-buttom 
+.contentProduct-wrapper-buttom
+    position: absolute
+    bottom: 49px
+    left: 40%
     a 
         text-decoration: none
     i
@@ -273,6 +184,3 @@
     a:hover 
         .contentProduct-box-button 
             background-color: #FF6A6A
-
-.footer-product 
-    margin-top: 98px

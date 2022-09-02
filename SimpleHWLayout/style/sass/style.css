@@ -6,7 +6,14 @@
 }
 
 /* Хедер */
-/* ----- */
+.mega-box .mega-item-kids, .mega-box .mega-heading-kids, .mega-box .mega-item-women, .mega-box .mega-heading-women, .mega-box .mega-item-man, .mega-box .mega-heading-man {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}
+
 .container {
   margin: 0 auto;
   width: 1600px;
@@ -76,19 +83,10 @@
   margin-bottom: 24px;
 }
 .mega-box .mega-heading-man {
-  font-family: "Lato";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 17px;
   color: #F16D7F;
   margin-bottom: 12px;
 }
 .mega-box .mega-item-man {
-  font-family: "Lato";
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 17px;
   color: #6F6E6E;
   display: block;
   margin-bottom: 11px;
@@ -98,38 +96,20 @@
   color: #F16D7F;
 }
 .mega-box .mega-heading-women {
-  font-family: "Lato";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 17px;
   color: #F16D7F;
   margin-bottom: 12px;
 }
 .mega-box .mega-item-women {
-  font-family: "Lato";
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 17px;
   color: #6F6E6E;
   display: block;
   margin-bottom: 11px;
   margin-left: 20px;
 }
 .mega-box .mega-heading-kids {
-  font-family: "Lato";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 17px;
   color: #F16D7F;
   margin-bottom: 12px;
 }
 .mega-box .mega-item-kids {
-  font-family: "Lato";
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 17px;
   color: #6F6E6E;
   display: block;
   margin-bottom: 11px;
@@ -159,7 +139,6 @@
   margin-top: 20px;
 }
 
-/* End Menu */
 .fa-solid {
   font-size: 30px;
   color: #E8E8E8;
@@ -210,6 +189,13 @@
   right: 0;
   bottom: 0;
   opacity: 1;
+}
+
+.nav-menu .accesories-text-container span, .nav-menu .menu-container-text span {
+  font-family: "Lato";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28.8px;
 }
 
 .section-nav {
@@ -288,10 +274,6 @@
   transform: translate(-50%, -50%);
 }
 .nav-menu .menu-container-text span {
-  font-family: "Lato";
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 28.8px;
   color: #F16D7F;
 }
 .nav-menu .accesories-text-container {
@@ -302,10 +284,6 @@
   transform: translate(-50%, -50%);
 }
 .nav-menu .accesories-text-container span {
-  font-family: "Lato";
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 28.8px;
   color: #F16D7F;
 }
 .nav-menu .container-text-header {
@@ -317,15 +295,18 @@
 }
 
 /* ProductBoard */
+.footer .container p, .contactUs form button, .contactUs form input, .contactUs form p, .contactUs figure p, .ourAdvantages .container article h2, .productBoard-container figure .add .add-desc, .productBoard button, .container-product span, .container-product h2, .productBoard-text, .productBoard h2 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+}
+
 .productBoard {
   background-color: #ffffff;
   margin: 0 auto;
   width: 1140px;
 }
 .productBoard h2 {
-  font-family: "Lato";
-  font-style: normal;
-  font-weight: 400;
   font-size: 30px;
   line-height: 36px;
   text-align: center;
@@ -334,9 +315,6 @@
 }
 
 .productBoard-text {
-  font-family: "Lato";
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 17px;
   text-align: center;
@@ -406,9 +384,6 @@
   text-decoration: none;
 }
 .container-product h2 {
-  font-family: "Lato";
-  font-style: normal;
-  font-weight: 400;
   font-size: 13px;
   line-height: 16px;
   margin-top: 25.35px;
@@ -430,9 +405,6 @@
   color: #5D5D5D;
 }
 .container-product span {
-  font-family: "Lato";
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 19px;
   margin-left: 18px;
@@ -447,8 +419,6 @@
   margin: 49px auto 96px auto;
   display: block;
   border: 1px solid #FF6A6A;
-  font-family: "Lato";
-  font-weight: 400;
   font-size: 16px;
   line-height: 19px;
   padding: 15px 39px 15px 39px;
@@ -470,8 +440,6 @@
   pointer-events: all;
 }
 .productBoard-container figure .add .add-desc {
-  font-family: "Lato";
-  font-weight: 400;
   font-size: 14px;
   line-height: 17px;
   color: #FFFFFF;
@@ -488,6 +456,12 @@
 }
 
 /* Footer */
+.footer .container p, .contactUs form button, .contactUs form input, .contactUs form p, .contactUs figure p, .ourAdvantages .container article h2, .productBoard h2, .productBoard-text, .container-product h2, .container-product span, .productBoard button, .productBoard-container figure .add .add-desc {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+}
+
 .ourAdvantages {
   background: #222224;
   height: 341px;
@@ -515,8 +489,6 @@
 }
 .ourAdvantages .container article h2 {
   margin-bottom: 16px;
-  font-family: "Lato";
-  font-weight: 400;
   font-size: 19.96px;
   line-height: 24px;
   color: #FBFBFB;
@@ -558,8 +530,6 @@
   margin-bottom: 30px;
 }
 .contactUs figure p {
-  font-family: "Lato";
-  font-weight: 400;
   font-size: 20px;
   line-height: 24px;
   color: #222224;
@@ -571,17 +541,15 @@
   left: 811px;
   top: 150px;
   text-align: center;
+}
+.contactUs form h2 {
+  font-family: "Lato";
   font-weight: 700;
   font-size: 24px;
   line-height: 40px;
   color: #222224;
 }
-.contactUs form h2 {
-  font-family: "Lato";
-}
 .contactUs form p {
-  font-family: "Lato";
-  font-weight: 400;
   font-size: 18px;
   line-height: 30.1px;
   color: #222224;
@@ -593,8 +561,6 @@
   width: 256px;
   height: 49px;
   padding-left: 22px;
-  font-family: "Lato";
-  font-weight: 400;
   font-size: 14px;
   color: #222224;
   border-radius: 25px 0 0 25px;
@@ -603,9 +569,6 @@
   position: absolute;
 }
 .contactUs form button {
-  font-family: "Lato";
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 17px;
   color: #222224;
@@ -631,8 +594,6 @@
   justify-content: space-between;
 }
 .footer .container p {
-  font-family: "Lato";
-  font-weight: 400;
   font-size: 16px;
   line-height: 70px;
   color: #FBFBFB;
@@ -753,7 +714,7 @@
   align-items: center;
 }
 
-/* Секцич с описанием продукта */
+/* Секция с описанием продукта */
 .contentProduct {
   border: 1px solid #EAEAEA;
   width: 1140px;
