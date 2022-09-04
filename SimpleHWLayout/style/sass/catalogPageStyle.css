@@ -201,11 +201,26 @@
   margin: 0 auto;
   width: 1140px;
 }
+.catalogNav .container {
+  margin-top: 51px;
+}
 .catalogNav .container form {
   display: flex;
 }
 .catalogNav .container form .menuFilter {
   margin-left: 16px;
+  cursor: pointer;
+}
+.catalogNav .container form .menuFilter span {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+.catalogNav .container form .chekParametr {
+  margin-left: 304px;
 }
 
 /* ProductBoard */
