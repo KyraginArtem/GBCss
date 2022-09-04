@@ -95,12 +95,17 @@
 
         <!-- Фильтр -->
         <div class="catalogNav">
-            <nav>
-                <div class="contentProduct-box">
-                    <form action="#">
+            <nav class="container">
+                <form action="#">
+                    <section class="menufilter">
+                        <span>FILTER</span>
+                        <img src="img/filtrMenuImg.png" alt="filtr">
+                    </section>
+
+                    <section class="chekParametr">
                         <div class="wrapper">
                             <details class="contentProduct-box-color">
-                                <summary>CHOOSE COLOR</summary>
+                                <summary>TRENDING NOW</summary>
                                 <ul>
                                     <li>
                                         <div class="colorBlack"></div>Black
@@ -123,23 +128,26 @@
                             </details>
             
                             <details class="contentProduct-box-size">
-                                <summary>CHOOSE SIZE</summary>
+                                <summary>SIZE</summary>
                                 <ul>
-                                    <li>L <input type="checkbox"></li>
-                                    <li>XL <input type="checkbox"></li>
-                                    <li>XXL <input type="checkbox"></li>
+                                    <li>XS<input type="checkbox"></li>
+                                    <li>S<input type="checkbox"></li>
+                                    <li>M<input type="checkbox"></li>
+                                    <li>L<input type="checkbox"></li>
                                 </ul>
                             </details>
             
                             <details class="contentProduct-box-quantity">
-                                <summary>QUANTITY</summary>
+                                <summary>PRICE</summary>
                                 <ul>
                                     <input type="number" value="1" min="1">
                                 </ul>
                             </details>
                         </div>
-                    </form>
-                </div>
+                        
+                    </section>       
+                </form>
+                
             </nav>
         </div>
 

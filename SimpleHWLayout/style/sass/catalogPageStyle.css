@@ -195,6 +195,15 @@
   color: #F16D7F;
 }
 
+/*Секция с menuFiltr*/
+.catalogNav {
+  background-color: #ffffff;
+  margin: 0 auto;
+  width: 1140px;
+}
+.catalogNav .container form {
+  display: flex;
+}
 /* ProductBoard */
 .footer .container p, .contactUs form button, .contactUs form input, .contactUs form p, .contactUs figure p, .ourAdvantages .container article h2, .productBoard-container figure .add .add-desc, .productBoard button, .container-product span, .container-product h2, .productBoard-text, .productBoard h2 {
   font-family: "Lato";
