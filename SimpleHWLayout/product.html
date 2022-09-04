@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shop</title>
-    <link rel="stylesheet" href="style/sass/style.css">
+    <title>Product</title>
+    <link rel="stylesheet" href="style/sass/productPageStyle.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
@@ -14,7 +14,6 @@
 </head>
 
 <body>
-
     <!-- Хедер -->
     <header class="header-menu">
         <div class="container">
@@ -41,14 +40,18 @@
                                 <a class="mega-item-man" href="#">Accessories</a>
                                 <a class="mega-item-man" href="#">Bags</a>
                                 <a class="mega-item-man" href="#">Denim</a>
-                                <a class="mega-item-man" href="#"><nobr>T-Shirts</nobr></a>
+                                <a class="mega-item-man" href="#">
+                                    <nobr>T-Shirts</nobr>
+                                </a>
                             </div>
                             <div class="item-women">
                                 <h3 class="mega-heading-women">WOMEN</h3>
                                 <a class="mega-item-women" href="#">Accessories</a>
                                 <a class="mega-item-women" href="#">Jackets & Coats</a>
                                 <a class="mega-item-women" href="#">Polos</a>
-                                <a class="mega-item-women" href="#"><nobr>T-Shirts</nobr></a>
+                                <a class="mega-item-women" href="#">
+                                    <nobr>T-Shirts</nobr>
+                                </a>
                                 <a class="mega-item-women" href="#">Shirts</a>
                             </div>
                             <div class="item-kids">
@@ -56,7 +59,9 @@
                                 <a class="mega-item-kids" href="#">Accessories</a>
                                 <a class="mega-item-kids" href="#">Jackets & Coats</a>
                                 <a class="mega-item-kids" href="#">Polos</a>
-                                <a class="mega-item-kids" href="#"><nobr>T-Shirts</nobr></a>
+                                <a class="mega-item-kids" href="#">
+                                    <nobr>T-Shirts</nobr>
+                                </a>
                                 <a class="mega-item-kids" href="#">Shirts</a>
                                 <a class="mega-item-kids" href="#">Bags</a>
                             </div>
@@ -72,63 +77,106 @@
                 <a href="#" class="rightSection-cart">
                     <i class="fa-solid fa-cart-shopping"></i>
                 </a>
+
             </nav>
         </div>
     </header>
 
-    <main class="header-banner">
+    <section class="lowerSectionNav">
         <div class="container">
-            <img src="img/Layer_57-removebg-preview 1.png" alt="product">
-            <h1><b>THE BRAND</b><br>
-                OF LUXERIOUS <span>FASHION</span></h1>
+            <h2>NEW ARRIVALS</h2>
+            <nav class="breadCrumbs">
+                <span><a href="index.html">HOME</a> / <a href="#">MEN</a> /
+                    <b>NEW ARRIVALS</b> </span>
+            </nav>
         </div>
-    </main>
-    <!-- ------ -->
+    </section>
 
-    <!-- Секция с навигацией -->
-    <section class="section-nav">
-        <!-- Навигация контента -->
-        <nav class="nav-menu">
-            <div class="nav-menu-container">
-                <a href="#" class="forWomen">
-                    <img src="img/bg-content-menu/bgForWomen.png" alt="forWomen">
-                    <div class="menu-container-text">
-                        <p class="container-text-header">30% OFF</p>
-                        <span><b>FOR WOMEN</b></span>
-                    </div>
-                </a>
-                <a href="#" class="forMen">
-                    <img src="img/bg-content-menu/bgForMen.png" alt="forMen">
-                    <div class="menu-container-text">
-                        <p class="container-text-header">HOT DEAL</p>
-                        <span><b>FOR MEN</b></span>
-                    </div>
-                </a>
-                <a href="#" class="forKids">
-                    <img src="img/bg-content-menu/bgForKids.png" alt="forKids">
-                    <div class="menu-container-text">
-                        <p class="container-text-header">NEW ARRIVALS</p>
-                        <span><b>FOR KIDS</b></span>
-                    </div>
-                </a>
-            </div>
-            <a href="#" class="accesories">
-                <img src="img/bg-content-menu/bgAccesories.png" alt="accesories">
-                <div class="accesories-text-container">
-                    <p class="container-text-header">LUXIROUS & TRENDY</p>
-                    <span><b>ACCESORIES</b></span>
+    <section class="slider">
+        <div class="container">
+            <a href="#">
+                <div class="leftSlider">
+                    <i class="fa-solid fa-angle-left"></i>
                 </div>
             </a>
-        </nav>
+
+            <img src="img/productPage-img-slider/Layer 42.png" alt="girl">
+
+            <a href="#">
+                <div class="rightSlider">
+                    <i class="fa-solid fa-angle-right"></i>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <section class="contentProduct">
+        <h2>WOMEN COLLECTION</h2>
+        <h3>MOSCHINO CHEAP AND CHIC</h3>
+        <p>
+            Compellingly actualize fully researched processes before
+            proactive outsourcing.<br> Progressively syndicate collaborative
+            architectures before cutting-edge services. Completely<br>
+            visualize parallel core competencies rather than exceptional
+            portals.
+        </p>
+        <span>$561</span>
+
+        <div class="contentProduct-box">
+            <form action="#">
+                <div class="wrapper">
+                    <details class="contentProduct-box-color">
+                        <summary>CHOOSE COLOR</summary>
+                        <ul>
+                            <li>
+                                <div class="colorBlack"></div>Black
+                                <input type="checkbox">
+                            </li>
+    
+                            <li>
+                                <div class="colorWhite"></div>White
+                                <input type="checkbox">
+                            </li>
+                            </li>
+    
+                            <li>
+                                <div class="colorYellow"></div>Yellow
+                                <input type="checkbox">
+                            </li>
+                            </li>
+    
+                        </ul>
+                    </details>
+    
+                    <details class="contentProduct-box-size">
+                        <summary>CHOOSE SIZE</summary>
+                        <ul>
+                            <li>L <input type="checkbox"></li>
+                            <li>XL <input type="checkbox"></li>
+                            <li>XXL <input type="checkbox"></li>
+                        </ul>
+                    </details>
+    
+                    <details class="contentProduct-box-quantity">
+                        <summary>QUANTITY</summary>
+                        <ul>
+                            <input type="number" value="1" min="1">
+                        </ul>
+                    </details>
+                </div>
+                <div class="contentProduct-wrapper-buttom">
+                    <a  href="#">
+                        <div class="contentProduct-box-button">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                                <p class="">Add to Card</p>    
+                        </div>
+                    </a>
+                </div>
+            </form>
+        </div>
     </section>
 
     <section class="productBoard">
-        <h2>
-            Fetured Items
-        </h2>
-        <p class="productBoard-text">
-            Shop for items based on what we featured in this week
-        </p>
         <div class="productBoard-container">
             <figure>
                 <a href="product.html">
@@ -200,82 +248,11 @@
                     </a>
                 </div>
             </figure>
-            <figure>
-                <a href="product.html">
-                    <div class="container-product">
-                        <div class="picther-box">
-                            <img class="pic" src="img/bg-productBoard/Rectangle 15 copy4.png" alt="">
-                        </div>
-                        <h2>ELLERY X M'O CAPSULE</h2>
-                        <p>
-                            Known for her sculptural takes on traditional tailoring,
-                            Australian arbiter of cool Kym Ellery teams<br> up with Moda
-                            Operandi.
-                        </p>
-                        <span>$52.00</span>
-                    </div>
-                </a>
-                <div class="add-box">
-                    <a class="add" href="">
-                        <img class="add-pic" src="img/icon/card.png" alt="card">
-                        <p class="add-desc">Add to Card</p>
-                    </a>
-                </div>
-            </figure>
-            <figure>
-                <a href="product.html">
-                    <div class="container-product">
-                        <div class="picther-box">
-                            <img class="pic" src="img/bg-productBoard/Rectangle 15 copy5.png" alt="">
-                        </div>
-                        <h2>ELLERY X M'O CAPSULE</h2>
-                        <p>
-                            Known for her sculptural takes on traditional tailoring,
-                            Australian arbiter of cool Kym Ellery teams<br> up with Moda
-                            Operandi.
-                        </p>
-                        <span>$52.00</span>
-                    </div>
-                </a>
-                <div class="add-box">
-                    <a class="add" href="#">
-                        <img class="add-pic" src="img/icon/card.png" alt="card">
-                        <p class="add-desc">Add to Card</p>
-                    </a>
-                </div>
-            </figure>
-            <figure>
-                <a href="product.html">
-                    <div class="container-product">
-                        <div class="picther-box">
-                            <img class="pic" src="img/bg-productBoard/Rectangle 15 copy6.png" alt="">
-                        </div>
-                        <h2>ELLERY X M'O CAPSULE</h2>
-                        <p>
-                            Known for her sculptural takes on traditional tailoring,
-                            Australian arbiter of cool Kym Ellery teams<br> up with Moda
-                            Operandi.
-                        </p>
-                        <span>$52.00</span>
-                    </div>
-                </a>
-                <div class="add-box">
-                    <a class="add" href="#">
-                        <img class="add-pic" src="img/icon/card.png" alt="card">
-                        <p class="add-desc">Add to Card</p>
-                    </a>
-                </div>
-            </figure>
         </div>
-        <form action="catalog.html">
-            <button>Browse All Product</button>
-        </form>
-
+        
     </section>
-    <!-- ------------- -->
 
-    <!-- Footer -->
-    <footer>
+    <footer class="footer-product">
         <section class="ourAdvantages">
             <div class="container">
                 <article>

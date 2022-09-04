@@ -1,0 +1,147 @@
+%lato-400 
+    font-family: 'Lato'
+    font-style: normal
+    font-weight: 400
+
+.productBoard 
+    background-color: #ffffff
+    margin: 0 auto
+    width: 1140px
+    h2
+        @extend %lato-400
+        font-size: 30px
+        line-height: 36px
+        text-align: center
+        color: #222222
+        margin-bottom: 6px
+
+.productBoard-text 
+    @extend %lato-400
+    font-size: 14px
+    line-height: 17px
+    text-align: center
+    color: #9F9F9F
+    margin-bottom: 48px
+
+.productBoard-container 
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-between
+    margin: auto
+    figure
+        position: relative
+    figure:hover .pic
+        transform: scale(1.1)
+        filter: brightness(30%)
+    figure:hover .box
+        filter: brightness(30%)
+
+/* уведичение картинки пр наведении */
+.container-product 
+    .pic 
+        transition: 0.5s
+        display: block
+    .picther-box
+        display: inline-block
+        overflow: hidden
+
+/* появление кнопки добавить в карзину */
+
+.productBoard-container 
+    figure .add:hover 
+        box-shadow: 0px 0px 10px 0px #fff
+    figure:hover .add-box
+        display: flex
+    figure:nth-child(-n+3) 
+        margin-bottom: 30px
+    .container-product 
+        width: 360px
+        background-color: #F8F8F8
+        padding-bottom: 20px
+
+.box 
+    background-color: #F7E4E2
+    width: 360px
+    height: 420px
+    img
+        margin-left: 108px
+        margin-top: 9px
+
+.productBoard-container a 
+    text-decoration: none
+    display: block
+
+.container-product
+    a 
+        text-decoration: none
+    h2 
+        @extend %lato-400
+        font-size: 13px
+        line-height: 16px
+        margin-top: 25.35px
+        text-align: start
+        margin-left: 18px
+        text-decoration: none
+        color: #000000
+    p 
+        font-family: 'Lato'
+        font-style: normal
+        font-weight: 300
+        font-size: 14px
+        line-height: 17px
+        text-align: start
+        margin-left: 16px
+        margin-top: 13px
+        margin-bottom: 18px
+        color: #5D5D5D
+    span 
+        @extend %lato-400
+        font-size: 16px
+        line-height: 19px
+        margin-left: 18px
+        color: #F16D7F
+
+.productBoard-container 
+    figure:hover 
+        box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0)
+
+.productBoard 
+    button 
+        margin: 49px auto 96px auto
+        display: block
+        border: 1px solid #FF6A6A
+        @extend %lato-400
+        font-size: 16px
+        line-height: 19px
+        padding: 15px 39px 15px 39px
+        color: #F26376
+        background: #ffffff
+    button:hover 
+        background-color: #F16D7F
+        color: #ffffff
+        
+/* кнопка добавить в карзину на картачке с товара   */
+.productBoard-container 
+    figure 
+        .add 
+            display: flex
+            padding: 8px
+            border: 1px solid #ffff
+            align-items: center
+            text-decoration: none
+            pointer-events: all
+            .add-desc
+                @extend %lato-400
+                font-size: 14px
+                line-height: 17px
+                color: #FFFFFF
+                margin-left: 11px
+
+.add-box 
+    display: none
+    justify-content: center
+    width: 100%
+    position: absolute
+    top: 188px
+    pointer-events: none
+    

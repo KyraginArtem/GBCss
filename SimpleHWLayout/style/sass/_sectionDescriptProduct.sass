@@ -1,0 +1,186 @@
+
+.contentProduct 
+    border: 1px solid #EAEAEA
+    width: 1140px
+    height: 600.18px
+    margin: auto
+    transform: translate(0,-65px)
+    background-color: #FFFFFF
+    padding-top: 64.5px
+    text-align: center
+    margin-bottom: 63px
+    h2 
+        font-family: 'Lato'
+        font-weight: 300
+        font-size: 14px
+        line-height: 17px
+        color: #F16D7F
+        display: inline-block
+        padding-bottom: 12px
+        position: relative
+        margin-bottom: 15px
+    h2::after
+        content: ""
+        position: absolute
+        height: 3px
+        background-color: #EF5B70
+        width: 63px
+        left: 43.12px
+        top: 29.4px
+    h3 
+        font-family: 'Lato'
+        font-weight: 300
+        font-size: 18px
+        line-height: 22px
+        color: #4D4D4D
+        margin-bottom: 48.41px
+    p 
+        font-family: 'Lato'
+        font-weight: 300
+        font-size: 14px
+        line-height: 17px
+        text-align: center
+        color: #5E5E5E
+        width: 555px
+        margin: 0 auto 32.27px auto
+    span 
+        font-family: 'Lato'
+        font-weight: 300
+        font-size: 24px
+        line-height: 29px
+        color: #EF5B70
+        padding-bottom: 65px
+        position: relative
+        display: inline-block
+    span::after 
+        content: ""
+        position: absolute
+        height: 1px
+        background-color: #EAEAEA
+        width: 641px
+        left: -300px
+        top: 89px
+
+/* Секция с баяном */
+.contentProduct-box 
+    form 
+        display: flex
+        flex-wrap: wrap
+        justify-content: center
+        details
+            margin-right: 23px
+            margin-top: 65px
+            cursor: pointer
+        details:last-child
+            margin-right: 0px
+        details[open] > summary::after
+            content: '\02C4'
+            font-family: "Font Awesome 5 Brands Free"
+            padding-left: 0.5em
+    .wrapper 
+        display: flex
+        justify-content: center
+        position: relative
+    summary  
+        display: block
+        font-family: 'Lato'
+        font-style: normal
+        font-weight: 400
+        font-size: 14px
+        line-height: 17px
+        color: #6F6E6E
+    summary::-webkit-details-marker 
+        display: none
+    summary::after 
+        content: "\02C5"
+        font-family: "Font Awesome  Brands Free"
+        padding-left: 0.5em
+        color: #6F6E6E
+    ul
+        a 
+            text-decoration: none
+            color: #6F6E6E
+            display: flex
+            justify-content: center
+        li 
+            margin-right: 20px
+            font-family: 'Lato'
+            font-style: normal
+            font-weight: 300
+            font-size: 14px
+            line-height: 17px
+            text-align: center
+    .colorBlack 
+        width: 15px
+        height: 15px
+        background-color: black
+        border: 1px solid
+        display: inline-block
+        margin-right: 17px
+    .colorWhite 
+        width: 15px
+        height: 15px
+        background-color: #fff
+        border: 1px solid
+        display: inline-block
+        margin-right: 11px
+    .colorYellow 
+        width: 15px
+        height: 15px
+        display: inline-block
+        margin-right: 10px
+        background-color: yellow
+        border: 1px solid
+    ul 
+        list-style: none
+
+.contentProduct-box-size 
+    ul 
+        li 
+            display: flex
+            justify-content: end
+            input
+                margin-left: 10px
+
+.contentProduct-box-quantity 
+    input 
+        padding-left: 5px
+        padding-right: 5px
+        width: 50px
+        border: 1px solid #FF6A6A
+        outline: none
+
+.contentProduct-box-button 
+    width: 211px
+    height: 47.4px
+    border: 1px solid #FF6A6A
+    display: flex
+    justify-content: space-between
+    p
+        font-family: 'Lato'
+        font-style: normal
+        font-weight: 400
+        font-size: 16px
+        line-height: 47px
+        color: #F26376
+        margin-right: 56.5px
+
+.contentProduct-wrapper-buttom
+    position: absolute
+    bottom: 49px
+    left: 40%
+    a 
+        text-decoration: none
+    i
+        color: #EF5B70
+        margin-left: 23.5px
+        line-height: 46px
+    a:hover 
+        i 
+            color: #fff
+    a:hover 
+        p
+            color: #fff
+    a:hover 
+        .contentProduct-box-button 
+            background-color: #FF6A6A
