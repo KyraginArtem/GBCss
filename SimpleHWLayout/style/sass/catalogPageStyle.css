@@ -204,6 +204,10 @@
 .catalogNav .container form {
   display: flex;
 }
+.catalogNav .container form .menuFilter {
+  margin-left: 16px;
+}
+
 /* ProductBoard */
 .footer .container p, .contactUs form button, .contactUs form input, .contactUs form p, .contactUs figure p, .ourAdvantages .container article h2, .productBoard-container figure .add .add-desc, .productBoard button, .container-product span, .container-product h2, .productBoard-text, .productBoard h2 {
   font-family: "Lato";
