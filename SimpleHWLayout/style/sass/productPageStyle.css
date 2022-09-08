@@ -323,7 +323,6 @@
 }
 .contentProduct-box form details[open] > summary::after {
   content: "˄";
-  font-family: "Font Awesome 5 Brands Free";
   padding-left: 0.5em;
 }
 .contentProduct-box .wrapper {
@@ -345,7 +344,6 @@
 }
 .contentProduct-box summary::after {
   content: "˅";
-  font-family: "Font Awesome  Brands Free";
   padding-left: 0.5em;
   color: #6F6E6E;
 }
@@ -514,7 +512,7 @@
 .productBoard-container figure:hover .add-box {
   display: flex;
 }
-.productBoard-container figure:nth-child(-n+3) {
+.productBoard-container figure:nth-child(-n+6) {
   margin-bottom: 30px;
 }
 .productBoard-container .container-product {
@@ -574,7 +572,7 @@
 }
 
 .productBoard button {
-  margin: 49px auto 96px auto;
+  margin: 19px auto 96px auto;
   display: block;
   border: 1px solid #FF6A6A;
   font-size: 16px;
