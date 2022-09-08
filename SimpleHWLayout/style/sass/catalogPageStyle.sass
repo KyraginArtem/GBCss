@@ -18,10 +18,54 @@
         margin-top: 51px
         form
             display: flex
-            
+            .menuFilter:hover .ariseMenu
+                display: block
             .menuFilter
                 margin-left: 16px
                 cursor: pointer
+                position: relative
+                margin-bottom: 64px
+                .ariseMenu
+                    position: absolute
+                    z-index: 1
+                    top: -13px
+                    left: -16px
+                    background: #fff
+                    display: none
+                    .ariseMenuHead-box
+                        margin-top: 13px
+                        margin-left: 16px
+                    .ariseMenuBody-box
+                        summary
+                            width: 327px
+                            list-style-type: none
+                            display: flex
+                            font-family: 'Lato'
+                            font-style: normal
+                            font-weight: 400
+                            font-size: 14px
+                            color: #EF5B70
+                            border-left: 5px solid #EF5B70
+                            padding-left: 11px
+                            border-bottom: 1px solid #EBEBEB
+                            padding-bottom: 11.5px
+                            padding-top: 11.5px
+                            margin: 12.5px 5.5px 24.5px 17px
+                    a
+                        text-decoration: none
+                        display: block
+                        font-family: 'Lato'
+                        font-style: normal
+                        font-weight: 400
+                        font-size: 14px
+                        line-height: 17px
+                        color: #6F6E6E
+                        margin-left: 34px
+                        margin-bottom: 11px
+                    a:hover
+                        color: #F16D7F
+                        transition-duration: 1s
+
                 span
                     font-family: 'Lato'
                     font-style: normal
@@ -31,9 +75,48 @@
                     color: #000000
             .chekParametr
                 margin-left: 304px
-
-
-
+                display: flex
+                position: relative
+                .contentProduct-box
+                    position: absolute
+                    z-index: 1
+                details
+                    position: relative
+                    cursor: pointer
+                    font-family: 'Lato'
+                    font-style: normal
+                    font-weight: 400
+                    font-size: 14px
+                    line-height: 17px
+                    color: #6F6E6E
+                    margin-right: 29px
+                    display: flex
+                    summary
+                        display: block
+                    summary::-webkit-details-marker 
+                        display: none
+                    summary::after
+                        content: '\02C5'
+                        padding-left: 0.5em
+                    .wrapper
+                        display: flex
+                        justify-content: space-between
+                        width: 40px
+                        .amount
+                            width: 50px
+                            padding-right: 5px
+                            padding-left: 5px
+                details[open] > summary::after
+                    content: '\02C4'
+                    padding-left: 0.5em
+                    span
+                        font-family: 'Lato'
+                        font-style: normal
+                        font-weight: 400
+                        font-size: 14px
+                        line-height: 17px
+                        color: #6F6E6E
+                    
 
 /* ProductBoard */
 @import 'sectionContent-productBoard'

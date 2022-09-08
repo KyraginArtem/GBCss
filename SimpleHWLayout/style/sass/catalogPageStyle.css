@@ -207,9 +207,58 @@
 .catalogNav .container form {
   display: flex;
 }
+.catalogNav .container form .menuFilter:hover .ariseMenu {
+  display: block;
+}
 .catalogNav .container form .menuFilter {
   margin-left: 16px;
   cursor: pointer;
+  position: relative;
+  margin-bottom: 64px;
+}
+.catalogNav .container form .menuFilter .ariseMenu {
+  position: absolute;
+  z-index: 1;
+  top: -13px;
+  left: -16px;
+  background: #fff;
+  display: none;
+}
+.catalogNav .container form .menuFilter .ariseMenu .ariseMenuHead-box {
+  margin-top: 13px;
+  margin-left: 16px;
+}
+.catalogNav .container form .menuFilter .ariseMenu .ariseMenuBody-box summary {
+  width: 327px;
+  list-style-type: none;
+  display: flex;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #EF5B70;
+  border-left: 5px solid #EF5B70;
+  padding-left: 11px;
+  border-bottom: 1px solid #EBEBEB;
+  padding-bottom: 11.5px;
+  padding-top: 11.5px;
+  margin: 12.5px 5.5px 24.5px 17px;
+}
+.catalogNav .container form .menuFilter .ariseMenu a {
+  text-decoration: none;
+  display: block;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #6F6E6E;
+  margin-left: 34px;
+  margin-bottom: 11px;
+}
+.catalogNav .container form .menuFilter .ariseMenu a:hover {
+  color: #F16D7F;
+  transition-duration: 1s;
 }
 .catalogNav .container form .menuFilter span {
   font-family: "Lato";
@@ -221,6 +270,56 @@
 }
 .catalogNav .container form .chekParametr {
   margin-left: 304px;
+  display: flex;
+  position: relative;
+}
+.catalogNav .container form .chekParametr .contentProduct-box {
+  position: absolute;
+  z-index: 1;
+}
+.catalogNav .container form .chekParametr details {
+  position: relative;
+  cursor: pointer;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #6F6E6E;
+  margin-right: 29px;
+  display: flex;
+}
+.catalogNav .container form .chekParametr details summary {
+  display: block;
+}
+.catalogNav .container form .chekParametr details summary::-webkit-details-marker {
+  display: none;
+}
+.catalogNav .container form .chekParametr details summary::after {
+  content: "˅";
+  padding-left: 0.5em;
+}
+.catalogNav .container form .chekParametr details .wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 40px;
+}
+.catalogNav .container form .chekParametr details .wrapper .amount {
+  width: 50px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+.catalogNav .container form .chekParametr details[open] > summary::after {
+  content: "˄";
+  padding-left: 0.5em;
+}
+.catalogNav .container form .chekParametr details[open] > summary::after span {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #6F6E6E;
 }
 
 /* ProductBoard */
@@ -285,7 +384,7 @@
 .productBoard-container figure:hover .add-box {
   display: flex;
 }
-.productBoard-container figure:nth-child(-n+3) {
+.productBoard-container figure:nth-child(-n+6) {
   margin-bottom: 30px;
 }
 .productBoard-container .container-product {
@@ -345,7 +444,7 @@
 }
 
 .productBoard button {
-  margin: 49px auto 96px auto;
+  margin: 19px auto 96px auto;
   display: block;
   border: 1px solid #FF6A6A;
   font-size: 16px;
@@ -385,7 +484,6 @@
 }
 
 .pagination {
-  width: 1600px;
   margin: 0 auto;
   display: flex;
   justify-content: center;
