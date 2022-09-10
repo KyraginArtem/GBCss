@@ -295,7 +295,7 @@
 }
 
 /* ProductBoard */
-.footer .container p, .contactUs form button, .contactUs form input, .contactUs form p, .contactUs figure p, .ourAdvantages .container article h2, .productBoard-container figure .add .add-desc, .productBoard button, .container-product span, .container-product h2, .productBoard-text, .productBoard h2 {
+.productBoard-container figure .add .add-desc, .productBoard button, .container-product span, .container-product h2, .productBoard-text, .productBoard h2 {
   font-family: "Lato";
   font-style: normal;
   font-weight: 400;
@@ -456,12 +456,6 @@
 }
 
 /* Footer */
-.footer .container p, .contactUs form button, .contactUs form input, .contactUs form p, .contactUs figure p, .ourAdvantages .container article h2, .productBoard h2, .productBoard-text, .container-product h2, .container-product span, .productBoard button, .productBoard-container figure .add .add-desc {
-  font-family: "Lato";
-  font-style: normal;
-  font-weight: 400;
-}
-
 .ourAdvantages {
   background: #222224;
   height: 341px;
@@ -489,17 +483,21 @@
 }
 .ourAdvantages .container article h2 {
   margin-bottom: 16px;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
   font-size: 19.96px;
   line-height: 24px;
   color: #FBFBFB;
 }
 .ourAdvantages .container article p {
-  font-family: "Lato";
+  font-family: "Lato", sans-serif;
+  font-style: normal;
   font-weight: 300;
   font-size: 13.972px;
   line-height: 17px;
-  text-align: center;
   color: #FBFBFB;
+  text-align: center;
 }
 
 .contactUs {
@@ -530,7 +528,10 @@
   margin-bottom: 30px;
 }
 .contactUs figure p {
-  font-size: 20px;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19.96px;
   line-height: 24px;
   color: #222224;
 }
@@ -543,13 +544,17 @@
   text-align: center;
 }
 .contactUs form h2 {
-  font-family: "Lato";
+  font-family: "Lato", sans-serif;
+  font-style: normal;
   font-weight: 700;
   font-size: 24px;
   line-height: 40px;
   color: #222224;
 }
 .contactUs form p {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
   font-size: 18px;
   line-height: 30.1px;
   color: #222224;
@@ -561,7 +566,11 @@
   width: 256px;
   height: 49px;
   padding-left: 22px;
-  font-size: 14px;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13.972px;
+  line-height: 30.1px;
   color: #222224;
   border-radius: 25px 0 0 25px;
   background-color: #E1E1E1;
@@ -569,7 +578,10 @@
   position: absolute;
 }
 .contactUs form button {
-  font-size: 14px;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13.972px;
   line-height: 17px;
   color: #222224;
   background-color: transparent;
@@ -594,8 +606,11 @@
   justify-content: space-between;
 }
 .footer .container p {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
   font-size: 16px;
-  line-height: 70px;
+  line-height: 17px;
   color: #FBFBFB;
   margin-left: 235px;
 }

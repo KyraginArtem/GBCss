@@ -1,8 +1,6 @@
-%lato-400
-    font-family: 'Lato'
-    font-style: normal
-    font-weight: 400
-    
+@import 'vars'
+@import 'mixin'
+
 .ourAdvantages 
     background: #222224
     height: 341px
@@ -27,17 +25,10 @@
         article
             h2
                 margin-bottom: 16px
-                @extend %lato-400
-                font-size: 19.96px
-                line-height: 24px
-                color: #FBFBFB
+                @include txtFormat($font-familyLato, $font-styleNormal, $font-weight400, $font-size20, $line-height24, $colorFBFBFB)
             p
-                font-family: 'Lato'
-                font-weight: 300
-                font-size: 13.972px
-                line-height: 17px
+                @include txtFormat($font-familyLato, $font-styleNormal, $font-weight300, $font-size14, $line-height17, $colorFBFBFB)
                 text-align: center
-                color: #FBFBFB
 
 .contactUs 
     position: relative
@@ -63,10 +54,7 @@
         img
             margin-bottom: 30px
         p
-            @extend %lato-400
-            font-size: 20px
-            line-height: 24px
-            color: #222224
+            @include txtFormat($font-familyLato, $font-styleNormal, $font-weight400, $font-size20, $line-height24, $color222224)
     form
         position: absolute
         width: 557px
@@ -75,16 +63,9 @@
         top: 150px
         text-align: center
         h2
-            font-family: 'Lato'
-            font-weight: 700
-            font-size: 24px
-            line-height: 40px
-            color: #222224
+            @include txtFormat($font-familyLato, $font-styleNormal, $font-weight700, $font-size24, $line-height40, $color222224)
         p
-            @extend %lato-400
-            font-size: 18px
-            line-height: 30.1px
-            color: #222224
+            @include txtFormat($font-familyLato, $font-styleNormal, $font-weight400, $font-size18, $line-height30, $color222224)
             margin-bottom: 32px
         input
             border: 1px solid transparent
@@ -92,18 +73,13 @@
             width: 256px
             height: 49px
             padding-left: 22px
-            @extend %lato-400
-            font-size: 14px
-            color: #222224
+            @include txtFormat($font-familyLato, $font-styleNormal, $font-weight400, $font-size14, $line-height30, $color222224)
             border-radius: 25px 0 0 25px
             background-color: #E1E1E1
             left: 104px
             position: absolute
         button
-            @extend %lato-400
-            font-size: 14px
-            line-height: 17px
-            color: #222224
+            @include txtFormat($font-familyLato, $font-styleNormal, $font-weight400, $font-size14, $line-height17, $color222224)
             background-color: transparent
             width: 100px
             height: 49px
@@ -122,10 +98,7 @@
         display: flex
         justify-content: space-between
         p
-            @extend %lato-400
-            font-size: 16px
-            line-height: 70px
-            color: #FBFBFB
+            @include txtFormat($font-familyLato, $font-styleNormal, $font-weight400, $font-size16, $line-height17, $colorFBFBFB)
             margin-left: 235px
 
 .soc 
