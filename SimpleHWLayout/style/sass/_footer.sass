@@ -1,42 +1,42 @@
 @import 'vars'
 @import 'mixin'
 
-.ourAdvantages 
+.footer__benefits 
     background: #222224
     height: 341px
     .container
         display: flex
         justify-content: space-between
         padding: 0 230px 0 230px
-        article
+        .benefits__article
             width: 360px
-            height: 164px
+            height: 134px
             margin-top: 103px
             text-align: center
 
-.ourAdvantages 
+.footer__benefits 
     .container 
-        article:nth-child(1) img 
+        .benefits__article:nth-child(1) .benefits__img 
             margin-bottom: 28px
-        article:nth-child(2) img
+        .benefits__article:nth-child(2) .benefits__img
             margin-bottom: 19px
-        article:nth-child(3) img
+        .benefits__article:nth-child(3) .benefits__img
             margin-bottom: 25px
-        article
-            h2
+        .benefits__article
+            .benefits__heding
                 margin-bottom: 16px
                 @include txtFormat($font-familyLato, $font-styleNormal, $font-weight400, $font-size20, $line-height24, $colorFBFBFB)
-            p
+            .benefits__content
                 @include txtFormat($font-familyLato, $font-styleNormal, $font-weight300, $font-size14, $line-height17, $colorFBFBFB)
                 text-align: center
 
-.contactUs 
+.footer__contactUs
     position: relative
     margin: auto
     width: 1598px
     height: 448px
     background-image: url(../../img/bg-footer/bg-footer.png)
-    .filtr 
+    .contactUs__filtr 
         content: ''
         position: absolute
         left: 0%
@@ -44,14 +44,14 @@
         top: 0%
         bottom: 0%
         background: rgba(244, 244, 244, 0.7)
-    figure
+    .contactUs__appeal
         position: absolute
         width: 360px
         height: 225px
         left: 228px
         top: 97px
         text-align: center
-        img
+        .appeal__img
             margin-bottom: 30px
         p
             @include txtFormat($font-familyLato, $font-styleNormal, $font-weight400, $font-size20, $line-height24, $color222224)
@@ -91,12 +91,13 @@
             color: #FFFFFF
             background-color: #F16D7F
 
-.footer 
+.footer-footer
     height: 79px
     background: #222224
-    .container 
+    .container
         display: flex
         justify-content: space-between
+        align-items: center
         p
             @include txtFormat($font-familyLato, $font-styleNormal, $font-weight400, $font-size16, $line-height17, $colorFBFBFB)
             margin-left: 235px

@@ -1,26 +1,18 @@
-%lato-400 
-    font-family: 'Lato'
-    font-style: normal
-    font-weight: 400
+@import 'vars'
+@import 'mixin'
 
 .productBoard 
     background-color: #ffffff
     margin: 0 auto
     width: 1140px
     h2
-        @extend %lato-400
-        font-size: 30px
-        line-height: 36px
+        @include txtFormat($font-familyLato, $font-styleNormal, $font-weight400, $font-size30, $line-height36, $color222222)
         text-align: center
-        color: #222222
         margin-bottom: 6px
 
 .productBoard-text 
-    @extend %lato-400
-    font-size: 14px
-    line-height: 17px
+    @include txtFormat($font-familyLato, $font-styleNormal, $font-weight400, $font-size14, $line-height17, $color9F9F9F)
     text-align: center
-    color: #9F9F9F
     margin-bottom: 48px
 
 .productBoard-container 
@@ -75,31 +67,21 @@
     a 
         text-decoration: none
     h2 
-        @extend %lato-400
-        font-size: 13px
-        line-height: 16px
+        @include txtFormat($font-familyLato, $font-styleNormal, $font-weight400, $font-size13, $line-height16, $color000000)
         margin-top: 25.35px
         text-align: start
         margin-left: 18px
         text-decoration: none
-        color: #000000
     p 
-        font-family: 'Lato'
-        font-style: normal
-        font-weight: 300
-        font-size: 14px
+        @include txtFormat($font-familyLato, $font-styleNormal, $font-weight400, $font-size14, $line-height17, $color5D5D5D)
         line-height: 17px
         text-align: start
         margin-left: 16px
         margin-top: 13px
         margin-bottom: 18px
-        color: #5D5D5D
     span 
-        @extend %lato-400
-        font-size: 16px
-        line-height: 19px
+        @include txtFormat($font-familyLato, $font-styleNormal, $font-weight400, $font-size16, $line-height19, $colorF16D7F)
         margin-left: 18px
-        color: #F16D7F
 
 .productBoard-container 
     figure:hover 
@@ -107,14 +89,11 @@
 
 .productBoard 
     button 
+        @include txtFormat($font-familyLato, $font-styleNormal, $font-weight400, $font-size16, $line-height19, $colorF26376)
         margin: 19px auto 96px auto
         display: block
         border: 1px solid #FF6A6A
-        @extend %lato-400
-        font-size: 16px
-        line-height: 19px
         padding: 15px 39px 15px 39px
-        color: #F26376
         background: #ffffff
     button:hover 
         background-color: #F16D7F
@@ -131,10 +110,7 @@
             text-decoration: none
             pointer-events: all
             .add-desc
-                @extend %lato-400
-                font-size: 14px
-                line-height: 17px
-                color: #FFFFFF
+                @include txtFormat($font-familyLato, $font-styleNormal, $font-weight400, $font-size14, $line-height17, $colorffffff)
                 margin-left: 11px
 
 .add-box 

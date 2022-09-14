@@ -1,5 +1,8 @@
+@import 'vars'
+@import 'mixin'
+    
 .lowerSectionNav 
-    background: #F8F3F4
+    background: $colorF8F3F4
     height: 148px
     .container
         display: flex
@@ -7,24 +10,16 @@
         h2
             margin-left: 230px
             margin-top: 59px
-            font-family: 'Lato'
-            font-weight: 400
-            font-size: 24px
-            line-height: 29px
-            color: #F16D7F
+            @include txtFormat($font-familyLato, $font-styleNormal, $font-weight400, $font-size24, $line-height29, $colorF16D7F)
         .breadCrumbs
             margin-right: 230px
             margin-top: 65px
             span
-                font-family: 'Lato'
-                font-weight: 300
-                font-size: 14px
-                line-height: 17px
-                color: #636363
+                @include txtFormat($font-familyLato, $font-styleNormal, $font-weight300, $font-size14, $line-height17, $color636363)
                 b
-                    color: #F16D7F
+                    color: $colorF16D7F
                 a
                     text-decoration: none
-                    color: #636363
+                    color: $color636363
                 a:hover
-                    color: #F16D7F
+                    color: $colorF16D7F

@@ -1,13 +1,6 @@
 @import 'vars'
 @import 'mixin'
-    
-%lato-400size14heig17
-    font-family: 'Lato'
-    font-style: normal
-    font-weight: 400
-    font-size: 14px
-    line-height: 17px
-    
+
 .container 
     margin: 0 auto
     width: 1600px
@@ -41,65 +34,52 @@
         text-decoration: none
         width: 19px
         height: 19px
-        color: #ffffff
-        font-weight: 400
-        font-family: "Lato", sans-serif
-        font-size: 19px
-        background-color: #F16D7F
+        @include txtFormat($font-familyLato, $font-styleNormal, $font-weight400, $font-size19, $line-height24, $colorffffff)
+        background-color: $colorF16D7F
     .rightSection-cart
         margin-right: 240px
         
 /* Menu */
 
 .mega-box 
-    background-color: #fff
+    background-color: $colorffffff
     padding: 34px
     box-shadow: 0px 1px 10px 0px
     position: absolute
     z-index: 1
     display: none
     .mega-heading
-        font-family: 'Lato'
-        font-weight: 700
-        font-size: 14px
-        line-height: 17px
-        color: #000000
+        @include txtFormat($font-familyLato, $font-styleNormal, $font-weight700, $font-size14, $line-height17, $color000000)
         width: 232px
         margin-bottom: 24px
     .mega-heading-man
-        @extend %lato-400size14heig17
-        color: #F16D7F
+        @include txtFormat($font-familyLato, $font-styleNormal, $font-weight400, $font-size14, $line-height17, $colorF16D7F)
         margin-bottom: 12px
     .mega-item-man
-        @extend %lato-400size14heig17
-        color: #6F6E6E
+        @include txtFormat($font-familyLato, $font-styleNormal, $font-weight400, $font-size14, $line-height17, $color6F6E6E)
         display: block
         margin-bottom: 11px
         margin-left: 20px
     .mega-item-man:hover
-        color: #F16D7F
+        color: $colorF16D7F
     .mega-heading-women
-        @extend %lato-400size14heig17
-        color: #F16D7F
+        @include txtFormat($font-familyLato, $font-styleNormal, $font-weight400, $font-size14, $line-height17, $colorF16D7F)
         margin-bottom: 12px
     .mega-item-women
-        @extend %lato-400size14heig17
-        color: #6F6E6E
+        @include txtFormat($font-familyLato, $font-styleNormal, $font-weight400, $font-size14, $line-height17, $color6F6E6E)
         display: block
         margin-bottom: 11px
         margin-left: 20px
     .mega-heading-kids
-        @extend %lato-400size14heig17
-        color: #F16D7F
+        @include txtFormat($font-familyLato, $font-styleNormal, $font-weight400, $font-size14, $line-height17, $colorF16D7F)
         margin-bottom: 12px
     .mega-item-kids
-        @extend %lato-400size14heig17
-        color: #6F6E6E
+        @include txtFormat($font-familyLato, $font-styleNormal, $font-weight400, $font-size14, $line-height17, $color6F6E6E)
         display: block
         margin-bottom: 11px
         margin-left: 20px
     .mega-item-kids:hover
-        color: #F16D7F
+        color: $colorF16D7F
 
 .box-bars
     float: left
@@ -108,7 +88,7 @@
     display: block
 
 .rightSection-bars .box-bars:hover 
-    color: #F16D7F
+    color: $colorF16D7F
 
 .item-women .mega-heading-women 
     margin-top: 20px

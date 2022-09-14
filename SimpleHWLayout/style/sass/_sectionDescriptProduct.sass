@@ -1,3 +1,5 @@
+@import 'vars'
+@import 'mixin'
 
 .contentProduct 
     border: 1px solid #EAEAEA
@@ -10,11 +12,7 @@
     text-align: center
     margin-bottom: 63px
     h2 
-        font-family: 'Lato'
-        font-weight: 300
-        font-size: 14px
-        line-height: 17px
-        color: #F16D7F
+        @include txtFormat($font-familyLato, $font-styleNormal, $font-weight300, $font-size14, $line-height17, $colorF16D7F)
         display: inline-block
         padding-bottom: 12px
         position: relative
@@ -28,27 +26,15 @@
         left: 43.12px
         top: 29.4px
     h3 
-        font-family: 'Lato'
-        font-weight: 300
-        font-size: 18px
-        line-height: 22px
-        color: #4D4D4D
+        @include txtFormat($font-familyLato, $font-styleNormal, $font-weight300, $font-size18, $line-height22, $color4D4D4D)
         margin-bottom: 48.41px
     p 
-        font-family: 'Lato'
-        font-weight: 300
-        font-size: 14px
-        line-height: 17px
+        @include txtFormat($font-familyLato, $font-styleNormal, $font-weight300, $font-size14, $line-height17, $color5E5E5E)
         text-align: center
-        color: #5E5E5E
         width: 555px
         margin: 0 auto 32.27px auto
     span 
-        font-family: 'Lato'
-        font-weight: 300
-        font-size: 24px
-        line-height: 29px
-        color: #EF5B70
+        @include txtFormat($font-familyLato, $font-styleNormal, $font-weight300, $font-size24, $line-height29, $colorEF5B70)
         padding-bottom: 65px
         position: relative
         display: inline-block
@@ -82,12 +68,7 @@
         position: relative
     summary  
         display: block
-        font-family: 'Lato'
-        font-style: normal
-        font-weight: 400
-        font-size: 14px
-        line-height: 17px
-        color: #6F6E6E
+        @include txtFormat($font-familyLato, $font-styleNormal, $font-weight400, $font-size14, $line-height17, $color6F6E6E)
     summary::-webkit-details-marker 
         display: none
     summary::after 
@@ -102,11 +83,7 @@
             justify-content: center
         li 
             margin-right: 20px
-            font-family: 'Lato'
-            font-style: normal
-            font-weight: 300
-            font-size: 14px
-            line-height: 17px
+            @include txtFormat($font-familyLato, $font-styleNormal, $font-weight300, $font-size14, $line-height17, $color000000)
             text-align: center
     .colorBlack 
         width: 15px
@@ -155,12 +132,7 @@
     display: flex
     justify-content: space-between
     p
-        font-family: 'Lato'
-        font-style: normal
-        font-weight: 400
-        font-size: 16px
-        line-height: 47px
-        color: #F26376
+        @include txtFormat($font-familyLato, $font-styleNormal, $font-weight400, $font-size16, $line-height47, $colorF26376)
         margin-right: 56.5px
 
 .contentProduct-wrapper-buttom

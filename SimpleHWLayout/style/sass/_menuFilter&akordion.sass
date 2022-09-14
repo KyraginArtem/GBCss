@@ -1,5 +1,8 @@
+@import 'vars'
+@import 'mixin'
+    
 .catalogNav
-    background-color: #ffffff
+    background-color: $colorffffff
     margin: 0 auto
     width: 1140px
     .container
@@ -18,7 +21,7 @@
                     z-index: 1
                     top: -13px
                     left: -16px
-                    background: #fff
+                    background: $colorffffff
                     display: none
                     .ariseMenuHead-box
                         margin-top: 13px
@@ -28,39 +31,24 @@
                             width: 327px
                             list-style-type: none
                             display: flex
-                            font-family: 'Lato'
-                            font-style: normal
-                            font-weight: 400
-                            font-size: 14px
-                            color: #EF5B70
+                            @include txtFormat($font-familyLato, $font-styleNormal, $font-weight400, $font-size18, $line-height17, $colorEF5B70)
                             border-left: 5px solid #EF5B70
                             padding-left: 11px
-                            border-bottom: 1px solid #EBEBEB
+                            border-bottom: 1px solid $colorEBEBEB
                             padding-bottom: 11.5px
                             padding-top: 11.5px
                             margin: 12.5px 5.5px 24.5px 17px
                     a
                         text-decoration: none
                         display: block
-                        font-family: 'Lato'
-                        font-style: normal
-                        font-weight: 400
-                        font-size: 14px
-                        line-height: 17px
-                        color: #6F6E6E
+                        @include txtFormat($font-familyLato, $font-styleNormal, $font-weight400, $font-size14, $line-height17, $color6F6E6E)
                         margin-left: 34px
                         margin-bottom: 11px
                     a:hover
-                        color: #F16D7F
+                        color: $colorF16D7F
                         transition-duration: 1s
-
                 span
-                    font-family: 'Lato'
-                    font-style: normal
-                    font-weight: 600
-                    font-size: 14px
-                    line-height: 17px
-                    color: #000000
+                    @include txtFormat($font-familyLato, $font-styleNormal, $font-weight600, $font-size14, $line-height17, $color000000)
             .chekParametr
                 margin-left: 304px
                 display: flex
@@ -68,17 +56,12 @@
                 .contentProduct-box
                     position: absolute
                     z-index: 1
-                    background-color: #fff
+                    background-color: $colorffffff
                     box-shadow: 2px 2px 7px 0px 
                 details
                     position: relative
                     cursor: pointer
-                    font-family: 'Lato'
-                    font-style: normal
-                    font-weight: 400
-                    font-size: 14px
-                    line-height: 17px
-                    color: #6F6E6E
+                    @include txtFormat($font-familyLato, $font-styleNormal, $font-weight400, $font-size14, $line-height17, $color6F6E6E)
                     margin-right: 29px
                     display: flex
                     summary
@@ -101,11 +84,5 @@
                     content: '\02C4'
                     padding-left: 0.5em
                     span
-                        
-                        font-family: 'Lato'
-                        font-style: normal
-                        font-weight: 400
-                        font-size: 14px
-                        line-height: 17px
-                        color: #6F6E6E
+                        @include txtFormat($font-familyLato, $font-styleNormal, $font-weight400, $font-size14, $line-height17, $color6F6E6E)
                    

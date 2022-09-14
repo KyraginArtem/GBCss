@@ -6,14 +6,6 @@
 }
 
 /* Хедер */
-.mega-box .mega-item-kids, .mega-box .mega-heading-kids, .mega-box .mega-item-women, .mega-box .mega-heading-women, .mega-box .mega-item-man, .mega-box .mega-heading-man {
-  font-family: "Lato";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 17px;
-}
-
 .container {
   margin: 0 auto;
   width: 1600px;
@@ -54,10 +46,12 @@
   text-decoration: none;
   width: 19px;
   height: 19px;
-  color: #ffffff;
-  font-weight: 400;
   font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
   font-size: 19px;
+  line-height: 24px;
+  color: #ffffff;
   background-color: #F16D7F;
 }
 .rightSection .rightSection-cart {
@@ -66,7 +60,7 @@
 
 /* Menu */
 .mega-box {
-  background-color: #fff;
+  background-color: #ffffff;
   padding: 34px;
   box-shadow: 0px 1px 10px 0px;
   position: absolute;
@@ -74,7 +68,8 @@
   display: none;
 }
 .mega-box .mega-heading {
-  font-family: "Lato";
+  font-family: "Lato", sans-serif;
+  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 17px;
@@ -83,10 +78,20 @@
   margin-bottom: 24px;
 }
 .mega-box .mega-heading-man {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
   color: #F16D7F;
   margin-bottom: 12px;
 }
 .mega-box .mega-item-man {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
   color: #6F6E6E;
   display: block;
   margin-bottom: 11px;
@@ -96,20 +101,40 @@
   color: #F16D7F;
 }
 .mega-box .mega-heading-women {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
   color: #F16D7F;
   margin-bottom: 12px;
 }
 .mega-box .mega-item-women {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
   color: #6F6E6E;
   display: block;
   margin-bottom: 11px;
   margin-left: 20px;
 }
 .mega-box .mega-heading-kids {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
   color: #F16D7F;
   margin-bottom: 12px;
 }
 .mega-box .mega-item-kids {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
   color: #6F6E6E;
   display: block;
   margin-bottom: 11px;
@@ -181,23 +206,6 @@
 }
 
 /* Блок Навигации в секции контента */
-.nav-menu .accesories:before, .nav-menu .accesories:after, .nav-menu-container .forKids:before, .nav-menu-container .forKids:after, .nav-menu-container .forMen:before, .nav-menu-container .forMen:after, .nav-menu-container .forWomen:before, .nav-menu-container .forWomen:after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  opacity: 1;
-}
-
-.nav-menu .accesories-text-container span, .nav-menu .menu-container-text span {
-  font-family: "Lato";
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 28.8px;
-}
-
 .section-nav {
   background-color: #ffffff;
   margin: 0 auto;
@@ -211,9 +219,23 @@
   margin-top: 65px;
 }
 .nav-menu-container .forWomen:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 1;
   background: rgba(33, 22, 22, 0.7);
 }
 .nav-menu-container .forWomen:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 1;
   background: url(../img/bg-content-menu/bgForWomen.png);
 }
 .nav-menu-container .forWomen:hover:before,
@@ -221,9 +243,23 @@
   opacity: 0;
 }
 .nav-menu-container .forMen:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 1;
   background: rgba(0, 0, 0, 0.5);
 }
 .nav-menu-container .forMen:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 1;
   background: url(icon-path);
 }
 .nav-menu-container .forMen:hover:before,
@@ -231,9 +267,23 @@
   opacity: 0;
 }
 .nav-menu-container .forKids:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 1;
   background: rgba(0, 0, 0, 0.5);
 }
 .nav-menu-container .forKids:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 1;
   background: url(icon-path);
   opacity: 1;
 }
@@ -255,9 +305,23 @@
   margin: 30px auto 96px auto;
 }
 .nav-menu .accesories:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 1;
   background: rgba(0, 0, 0, 0.5);
 }
 .nav-menu .accesories:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 1;
   background: url(icon-path);
 }
 .nav-menu .accesories:hover:before,
@@ -274,6 +338,11 @@
   transform: translate(-50%, -50%);
 }
 .nav-menu .menu-container-text span {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
   color: #F16D7F;
 }
 .nav-menu .accesories-text-container {
@@ -284,41 +353,47 @@
   transform: translate(-50%, -50%);
 }
 .nav-menu .accesories-text-container span {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
   color: #F16D7F;
 }
 .nav-menu .container-text-header {
-  font-family: "Lato";
+  font-family: "Lato", sans-serif;
+  font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 19.2px;
+  line-height: 19px;
   color: #ffffff;
 }
 
 /* ProductBoard */
-.productBoard-container figure .add .add-desc, .productBoard button, .container-product span, .container-product h2, .productBoard-text, .productBoard h2 {
-  font-family: "Lato";
-  font-style: normal;
-  font-weight: 400;
-}
-
 .productBoard {
   background-color: #ffffff;
   margin: 0 auto;
   width: 1140px;
 }
 .productBoard h2 {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
   font-size: 30px;
   line-height: 36px;
-  text-align: center;
   color: #222222;
+  text-align: center;
   margin-bottom: 6px;
 }
 
 .productBoard-text {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 17px;
-  text-align: center;
   color: #9F9F9F;
+  text-align: center;
   margin-bottom: 48px;
 }
 
@@ -384,31 +459,38 @@
   text-decoration: none;
 }
 .container-product h2 {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
   font-size: 13px;
   line-height: 16px;
+  color: #000000;
   margin-top: 25.35px;
   text-align: start;
   margin-left: 18px;
   text-decoration: none;
-  color: #000000;
 }
 .container-product p {
-  font-family: "Lato";
+  font-family: "Lato", sans-serif;
   font-style: normal;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 14px;
+  line-height: 17px;
+  color: #5D5D5D;
   line-height: 17px;
   text-align: start;
   margin-left: 16px;
   margin-top: 13px;
   margin-bottom: 18px;
-  color: #5D5D5D;
 }
 .container-product span {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 19px;
-  margin-left: 18px;
   color: #F16D7F;
+  margin-left: 18px;
 }
 
 .productBoard-container figure:hover {
@@ -416,13 +498,16 @@
 }
 
 .productBoard button {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #F26376;
   margin: 19px auto 96px auto;
   display: block;
   border: 1px solid #FF6A6A;
-  font-size: 16px;
-  line-height: 19px;
   padding: 15px 39px 15px 39px;
-  color: #F26376;
   background: #ffffff;
 }
 .productBoard button:hover {
@@ -440,9 +525,12 @@
   pointer-events: all;
 }
 .productBoard-container figure .add .add-desc {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 17px;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-left: 11px;
 }
 
@@ -456,58 +544,58 @@
 }
 
 /* Footer */
-.ourAdvantages {
+.footer__benefits {
   background: #222224;
   height: 341px;
 }
-.ourAdvantages .container {
+.footer__benefits .container {
   display: flex;
   justify-content: space-between;
   padding: 0 230px 0 230px;
 }
-.ourAdvantages .container article {
+.footer__benefits .container .benefits__article {
   width: 360px;
-  height: 164px;
+  height: 134px;
   margin-top: 103px;
   text-align: center;
 }
 
-.ourAdvantages .container article:nth-child(1) img {
+.footer__benefits .container .benefits__article:nth-child(1) .benefits__img {
   margin-bottom: 28px;
 }
-.ourAdvantages .container article:nth-child(2) img {
+.footer__benefits .container .benefits__article:nth-child(2) .benefits__img {
   margin-bottom: 19px;
 }
-.ourAdvantages .container article:nth-child(3) img {
+.footer__benefits .container .benefits__article:nth-child(3) .benefits__img {
   margin-bottom: 25px;
 }
-.ourAdvantages .container article h2 {
+.footer__benefits .container .benefits__article .benefits__heding {
   margin-bottom: 16px;
   font-family: "Lato", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 19.96px;
+  font-size: 20px;
   line-height: 24px;
   color: #FBFBFB;
 }
-.ourAdvantages .container article p {
+.footer__benefits .container .benefits__article .benefits__content {
   font-family: "Lato", sans-serif;
   font-style: normal;
   font-weight: 300;
-  font-size: 13.972px;
+  font-size: 14px;
   line-height: 17px;
   color: #FBFBFB;
   text-align: center;
 }
 
-.contactUs {
+.footer__contactUs {
   position: relative;
   margin: auto;
   width: 1598px;
   height: 448px;
   background-image: url(../../img/bg-footer/bg-footer.png);
 }
-.contactUs .filtr {
+.footer__contactUs .contactUs__filtr {
   content: "";
   position: absolute;
   left: 0%;
@@ -516,7 +604,7 @@
   bottom: 0%;
   background: rgba(244, 244, 244, 0.7);
 }
-.contactUs figure {
+.footer__contactUs .contactUs__appeal {
   position: absolute;
   width: 360px;
   height: 225px;
@@ -524,18 +612,18 @@
   top: 97px;
   text-align: center;
 }
-.contactUs figure img {
+.footer__contactUs .contactUs__appeal .appeal__img {
   margin-bottom: 30px;
 }
-.contactUs figure p {
+.footer__contactUs .contactUs__appeal p {
   font-family: "Lato", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 19.96px;
+  font-size: 20px;
   line-height: 24px;
   color: #222224;
 }
-.contactUs form {
+.footer__contactUs form {
   position: absolute;
   width: 557px;
   height: 142px;
@@ -543,7 +631,7 @@
   top: 150px;
   text-align: center;
 }
-.contactUs form h2 {
+.footer__contactUs form h2 {
   font-family: "Lato", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -551,16 +639,16 @@
   line-height: 40px;
   color: #222224;
 }
-.contactUs form p {
+.footer__contactUs form p {
   font-family: "Lato", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 30.1px;
+  line-height: 30px;
   color: #222224;
   margin-bottom: 32px;
 }
-.contactUs form input {
+.footer__contactUs form input {
   border: 1px solid transparent;
   outline: none;
   width: 256px;
@@ -569,19 +657,19 @@
   font-family: "Lato", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 13.972px;
-  line-height: 30.1px;
+  font-size: 14px;
+  line-height: 30px;
   color: #222224;
   border-radius: 25px 0 0 25px;
   background-color: #E1E1E1;
   left: 104px;
   position: absolute;
 }
-.contactUs form button {
+.footer__contactUs form button {
   font-family: "Lato", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 13.972px;
+  font-size: 14px;
   line-height: 17px;
   color: #222224;
   background-color: transparent;
@@ -592,20 +680,21 @@
   left: 360px;
   border-radius: 0 25px 25px 0;
 }
-.contactUs form button:hover {
+.footer__contactUs form button:hover {
   color: #FFFFFF;
   background-color: #F16D7F;
 }
 
-.footer {
+.footer-footer {
   height: 79px;
   background: #222224;
 }
-.footer .container {
+.footer-footer .container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
-.footer .container p {
+.footer-footer .container p {
   font-family: "Lato", sans-serif;
   font-style: normal;
   font-weight: 400;
